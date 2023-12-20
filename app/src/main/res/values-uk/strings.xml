@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Update information strings-->
+	<string name="enable">Увімкнути</string>
+	<string name="update_information_description_not_available">Немає офіційної інформації про зміни і нові функції, які містить це оновлення. Зазвичай, таке оновлення містить виправлення помилок, покращення продуктивності, та / або важливі оновлення безпеки для вашого пристрою.</string>
+	<string name="update_information_file_name">Назва файлу: %1$s</string>
+	<string name="update_information_md5">MD5: %1$s</string>
+	<string name="update_information_download_link">Оскільки під час завантаження оновлення виникла помилка, ви можете самостійно завантажити файл оновлення через браузер, перейшовши за посиланням. Також необхідно буде перенести завантажений файл з теки \"Download\" в її батьківську теку. Ось це посилання використовує застосунок для завантаження оновлення (це офіційний сервер OnePlus для OTA оновлень):\n%1$s</string>
+	<string name="update_information_header">Оновлення</string>
+	<string name="update_information_error_title">Не вдалося отримати інформацію про останнє оновлення</string>
+	<string name="update_information_banner_server">Натисніть, щоб переглянути важливі повідомлення</string>
+	<string name="update_information_banner_advanced_mode_tip">Ви вибрали режим оновлення \"%1$s\". Увімкніть розширений режим якщо плануєте використовувати цей режим.</string>
+	<string name="update_information_header_advanced_mode_hint">Увімкнено розширений режим</string>
+	<string name="update_information_header_advanced_mode_helper">Оскільки увімкнено розширений режим, ви можете завантажити останній ZIP з \"%1$s\". Розширений режим можна вимкнути в налаштуваннях.</string>
+	<string name="update_information_different_version_changelog_notice_base">Примітка: цей журнал змін стосується останньої доступної версії (%1$s) у методі оновлення \"%2$s\"</string>
+	<string name="update_information_different_version_changelog_notice_advanced">. Якщо ви маєте намір встановити це оновлення, вам слід увімкнути \"Розширений режим\" у налаштуваннях.</string>
+	<string name="update_information_no_update_data_available">Немає інформації про оновлення</string>
+	<string name="update_information_system_is_up_to_date">Система оновлена</string>
+	<string name="update_information_unknown_update_name">Оновлення без назви для %1$s</string>
+	<string name="update_information_view_update_information">Інформація про оновлення</string>
+
+	<!-- Server status warning strings -->
+	<string name="server_status_error">Деякі функції не працюють.</string>
+	<string name="server_status_unreachable">Немає зв\'язку з сервером. Перезавантажте сторінку.</string>
+	<string name="server_status_warning">Деякі функції можуть працювати неправильно.</string>
+
+	<!-- New app version message strings -->
+	<string name="new_app_version">Доступне оновлення (%1$s). Натисніть, щоб відкрити Play Маркет і оновити застосунок.</string>
+	<string name="new_app_version_inapp_downloaded">Оновлення застосунку завантажено</string>
+	<string name="new_app_version_inapp_failed">Неможливо встановити оновлення застосунку. Натисніть, щоб відкрити Play Маркет і оновити застосунок.</string>
+
+	<!-- Downloader strings-->
+	<!-- TODO: translate this string below -->
+	<string name="grant_all_files_access">Please enable \"All files access\" for the app, which is used only for downloading OTA ZIPs to the topmost directory of internal storage</string>
+	<string name="download">Завантажити оновлення</string>
+	<string name="downloaded">Оновлення завантажено</string>
+	<string name="downloading">Завантаження оновлення…</string>
+	<string name="paused">Призупинено - натисніть, щоб відновити</string>
+
+	<string name="download_complete">Завантаження завершено</string>
+	<string name="download_complete_notification">Натисніть, щоб встановити</string>
+
+	<string name="download_error">Помилка завантаження</string>
+	<string name="download_error_close">Закрити</string>
+	<string name="download_error_corrupt">Завантажене оновлення пошкоджене! Будь ласка, спробуйте завантажити його знову.</string>
+	<string name="download_error_server">Під час завантаження оновлення сталася помилка на сервері. Будь ласка, спробуйте завантажити оновлення знову.</string>
+	<string name="download_error_internal">На жаль, під час завантаження оновлення виникла технічна помилка. Спробуйте завантажити його знову. Але якщо помилка не зникне, тоді зв\'яжіться з розробником застосунку для консультації.</string>
+	<string name="download_error_unsuccessful_response"><![CDATA[Схоже, що посилання для завантаження не вірне. Це може означати що ми припустилися помилки, коли додавали нові дані, або хтось з OnePlus перемістив/видалив файл оновлення з серверів. До нас вже надійшло сповіщення, і ми вирішимо цю проблему якнайшвидше.
+
+Якщо хочете дізнатися більше, можете зв\'язатися з нами через <a href="mailto:support@oxygenupdater.com">електронну пошту</a> або написати в <a href="https://discord.gg/5TXdhKJ">чат на Discord</a>.]]></string>
+	<string name="download_error_could_not_move_temp_file">Файл завантажено, але його не вдалося перемістити в потрібну теку. Відкрийте менеджер файлів, перейдіть в \"%1$s\", і вручну перемістіть файл в теку \"topmost\" на внутрішньому сховищі.</string>
+
+	<string name="download_error_retry">Повторити</string>
+	<string name="download_error_resume">Продовжити</string>
+	<string name="download_error_storage">На вашому пристрої недостатньо місця, щоб завантажити оновлення. Будь ласка, видаліть деякі файли і спробуйте завантажити його знову.</string>
+
+	<string name="download_failed">Не вдалося завантажити</string>
+	<string name="download_pending">Завантаження незабаром розпочнеться…</string>
+	<string name="download_notification_error_server">Сталася помилка сервера під час завантаження. Будь ласка, спробуйте завантажити знову.</string>
+	<string name="download_notification_error_internal">Сталася технічна помилка під час завантаження. Перезапустіть завантаження або зверніться до підтримки.</string>
+	<string name="download_notification_error_storage_full">Недостатньо вільного місця.</string>
+	<string name="download_notification_error_corrupt">Помилка перевірки файлу. Перевірте підключення та спробуйте ще раз.</string>
+
+	<string name="download_progress_text_hours_remaining">залишилося ≈ %1$d години</string>
+	<string name="download_progress_text_less_than_a_minute_remaining">залишилося менше хвилини</string>
+	<string name="download_progress_text_minutes_remaining">залишилося ≈ %1$d хв.</string>
+	<string name="download_progress_text_one_hour_remaining">залишилося ≈ 1 година</string>
+	<string name="download_progress_text_one_minute_remaining">залишилася 1 хвилина</string>
+	<string name="download_progress_text_seconds_remaining">залишилося декілька секунд</string>
+	<string name="download_progress_text_unknown_time_remaining">підрахунок часу…</string>
+	<string name="download_progress_text_verifying">перевірка файлу…</string>
+	<string name="download_progress_text_paused">призупинено</string>
+
+	<string name="download_verifying">Перевірка…</string>
+	<string name="download_verifying_error">Файл пошкоджено</string>
+	<string name="download_verifying_start">Ваше завантаження перевіряється…</string>
+
+	<!-- Settings strings-->
+	<string name="preference_header_support">Підтримати нас</string>
+	<string name="preference_header_device">Пристрій</string>
+	<string name="preference_header_ui">Інтерфейс</string>
+	<string name="preference_header_notifications">Сповіщення</string>
+	<string name="preference_header_advanced">Розширені</string>
+	<string name="preference_header_about">Про</string>
+
+	<string name="summary_on">Увімкнено</string>
+	<string name="summary_off">Вимкнено</string>
+	<string name="summary_please_wait">Будь ласка, зачекайте…</string>
+	<string name="summary_update_method">Спершу виберіть пристрій</string>
+	<!-- TODO: check the following translation -->
+	<string name="summary_important_notifications_disabled">Деякі важливі сповіщення вимкнено:</string>
+	<string name="summary_privacy_policy">Переглянути онлайн</string>
+	<string name="summary_rate_app">Зилишіть відгук з 5-ма зірочками</string>
+
+	<string name="label_buy_ad_free">Видалити рекламу</string>
+	<string name="label_theme">Тема</string>
+	<string name="label_language">Мова</string>
+	<string name="label_privacy_policy">Політика приватності</string>
+	<string name="label_rate_app">Оцінити цей застосунок</string>
+
+	<string name="theme_light">Світла</string>
+	<string name="theme_dark">Темна</string>
+	<string name="theme_system">Системна</string>
+	<string name="theme_auto">Автоматично</string>
+
+	<string name="theme_light_subtitle">Тема з білим фоном і основним червоним кольором в стилі OnePlus</string>
+	<string name="theme_dark_subtitle">Приглушений основний червоний колір OnePlus, з майже чорним фоном. Використовуйте цю тему, щоб зберегти заряд батареї, особливо на екранах AMOLED.</string>
+	<string name="theme_system_subtitle">Використовувати системний нічний режим (також цей режим можна вибрати в налаштуваннях екрану та в параметрах розробника). Залежить від пристрою.</string>
+	<string name="theme_auto_subtitle">Перемикатися між світлою і темною темами залежно від часу доби, для запобігання перенапруження очей вночі</string>
+	<string name="theme_additional_note">Зверніть увагу: якщо вибрано \"Автоматично\", і увімкнено режим енергозбереження, тоді буде автоматично використовуватися темна тема, незалежно від часу доби, щоб зекономити заряд батареї</string>
+
+	<string name="settings">Налаштування</string>
+	<string name="settings_buy_button_buy">Купити (%1$s)</string>
+	<string name="settings_buy_button_bought">Куплено</string>
+	<string name="settings_buy_button_not_possible">Недоступно</string>
+	<string name="settings_buy_ad_free_label">Видалити рекламу із застосунку</string>
+
+	<string name="settings_contribute_label">Допомогти покращити застосунок</string>
+
+	<string name="settings_device">Вибрати пристрій</string>
+	<string name="settings_entered_incorrectly">Помилка під час збереження налаштувань. Будь ласка, верніться назад і виберіть ваш пристрій / спосіб оновлення знову.</string>
+
+	<string name="settings_push_from_server">Інформаційні повідомлення та попередження</string>
+
+	<string name="settings_saving">Ваші налаштування досі зберігаються. Якщо це триває занадто довго: перевірте з\'єднання з мережею, вийдіть із застосунку і запустіть його знову.</string>
+
+	<string name="settings_advanced_mode">Розширений режим</string>
+	<string name="settings_advanced_mode_explanation">"Зазвичай програма показує оновлення на основі поточної версії ОС. У розширеному режимі завжди буде показано останнє доступне оновлення, незалежно від сумісності пристрою/версії.
+
+Це може бути корисно, якщо ви хочете:"</string>
+	<string name="settings_advanced_mode_uses">"&#8226; Повторно завантажити останню версію, навіть якщо вона вже встановлена
+&#8226; Переключитися на інший шлях оновлення"</string>
+	<string name="settings_advanced_mode_caption">"Розширений режим може знадобитися лише у вищезазначених ситуаціях. Не вмикайте його, якщо не знаєте, що робите."</string>
+
+	<string name="settings_update_method">Спосіб оновлення</string>
+	<string name="settings_upload_logs">Ділитися даними про використання та журналом помилок</string>
+	<string name="settings_ad_privacy">Згода на рекламу GDPR</string>
+	<string name="settings_ad_privacy_subtitle">"Для користувачів з ЄЕЗ/Великобританії"</string>
+
+	<!-- FAQ strings -->
+	<string name="faq">ЧаПи</string>
+	<string name="faq_menu_item">ЧаПи</string>
+
+	<!-- First-time onboarding strings -->
+	<string name="onboarding">Налаштування</string>
+	<string name="onboarding_finished_button">розпочати</string>
+
+	<string name="onboarding_app_uses">Цей застосунок дозволить вам:\n\n&#8226; Отримувати миттєвий доступ до останніх оновлень Android для вашого пристрою під керуванням OxygenOS\n&#8226; Легко оновлювати пристрій з рутом\n&#8226; Переглядати, що нового на встановленій прошивці\n&#8226; Читати останні новини про OnePlus і OxygenOS</string>
+	<string name="onboarding_disclaimer">Це не офіційний застосунок від компанії OnePlus. Ви використовуєте його на свій страх і ризик. OnePlus і розробник цього застосунку не несуть відповідальності за заподіяння будь-якої шкоди вашому пристрою, спричинених цим застосунком. Використовуючи Oxygen Updater, ви погоджуєтеся з умовами, вказаними вище.</string>
+	<string name="onboarding_device_chooser_title">Виберіть ваш пристрій</string>
+	<string name="onboarding_device_chooser_caption">Зазвичай пристрій визначається автоматично. Якщо ні, тоді виберіть його зі списку.</string>
+	<string name="onboarding_method_chooser_title">Виберіть спосіб оновлення</string>
+	<string name="onboarding_method_chooser_caption">Зазвичай, інкрементне оновлення (Incremental update) є оптимальним вибором, тому що під час нього завантажується менше файлів. Однак, такий спосіб не сумісний з рутованими пристроями. Якщо у вас пристрій з рут правами, виберіть \"Повне оновлення\" (Full update). Якщо ви користуєтеся бета версіями OxygenOS, тоді виберіть спосіб \"Бета оновлення\" (Open Beta).</string>
+	<string name="onboarding_caption">Сподіваємося, вам буде приємно користуватися цим застосунком! Ви завжди можете змінити налаштування.</string>
+
+	<!-- Automatic install strings -->
+	<string name="install">Встановлення</string>
+
+	<!-- Install guide strings -->
+	<string name="install_guide">Інструкція по встановленню</string>
+	<string name="install_guide_download_instructions">&#8226; Натисніть кнопку \"Завантажити\", щоб розпочати завантаження оновлення.\n&#8226; Внизу застосунку з\'явиться прогрес завантаження, який буде продубльовано в системному сповіщенні.\n&#8226; Коли завантаження завершиться, ви побачите сповіщення з текстом \"Завантаження завершено\". Якщо під час завантаження трапиться помилка, відкрийте застосунок і спробуйте завантажити оновлення ще раз. Якщо і це на спрацює, тоді перевірте з\'єднання з інтернетом. Інакше, зв\'яжіться з розробником застосунку: знайдіть застосунок Oxygen Updater в Google Play > \"Контактні дані розробника\".</string>
+
+	<!-- Device information strings -->
+	<string name="device_information_supported_oxygen_os">Ваш пристрій підтримується</string>
+	<string name="device_information_carrier_exclusive_oxygen_os">Ваш пристрій не підтримується, оскільки це присрій від оператора</string>
+	<string name="device_information_unsupported_oxygen_os">Ми покищо не додали підтримки вашого пристою</string>
+	<string name="device_information_unsupported_os">Ваш пристрій не підтримується, тому що він працює не на OxygenOS</string>
+
+	<string name="device_information_hardware_header">Апаратне забезпечення</string>
+	<string name="device_information_software_header">Програмне забезпечення</string>
+
+	<string name="device_information_amount_of_memory">Обсяг оперативної пам\'яті</string>
+	<string name="device_information_cpu_frequency">Частота процесора</string>
+	<string name="device_information_gigahertz">%1$s ГГц</string>
+	<string name="device_information_header">Пристрій</string>
+	<string name="device_information_image_description">Зображення пристрою</string>
+	<string name="device_information_incremental_os_version">Номер складання</string>
+	<string name="device_information_os_version">Версія Android</string>
+	<string name="device_information_oxygen_os_version">Версія OS</string>
+	<string name="device_information_oxygen_os_ota_version">Версія ПЗ</string>
+	<string name="device_information_patch_level_version">Дата патчу безпеки</string>
+	<string name="device_information_serial_number">Серійний номер</string>
+	<string name="device_information_system_on_a_chip">Система на кристалі</string>
+	<string name="device_information_unknown">невідомо</string>
+
+	<!-- About screen strings -->
+	<string name="about">Про</string>
+	<string name="about_description">Цей застосунок завантажує офіційні оновлення напряму із серверів OnePlus, потім перевіряє цілісність завантаженого ZIP-файлу перед встановленням. Таким чином, застосунок дозволяє встановлювати офіційні оновлення якнайшвидше. Якщо ви помітили помилки в операційній системі, повідомте про це напряму в OnePlus: <a href="https://forums.oneplus.com/feedback">https://forums.oneplus.com/feedback</a>. Також ви можете приєднатися до нашого <a href="https://discord.gg/5TXdhKJ">серверу Discord</a>, де зможете поспілкуватися з іншими користувачами про оновлення. Щоб зв\'язатися з нами, напишіть листа на цю пошту: <a href="mailto:support@oxygenupdater.com">support@oxygenupdater.com</a> (для побажань/відгуку тощо).</string>
+	<string name="about_support">Якщо бажаєте нас підтримати, ви можете купити видалення реклами (в налаштуваннях застосунку), або внести пожертву на <a href="https://patreon.com/oxygenupdater">сторінці Patreon</a>.</string>
+	<string name="about_background_story_header">Історія застосунку</string>
+	<string name="about_background_story">Спочатку цей застосунок розроблявся Аржаном Влеком, як продовження іншого його застосунку, який називається <a href="https://cyanogenupdatetracker.com/">Cyanogen Update Tracker</a> (він надає схожий функціонал, але для користувачів Cyanogen OS).\n\nПісля 4 років, в липні 2019 року, Аржан вирішив піти з цих обидвох проєктів і передав право власності на застосунок команді розробників з різних країн. Вони взяли на себе відповідальність за подальшу розробку цього застосунку і надання спільноті відмінної сервісної підтримки.\nВи можете знайти більше інформації <a href="https://oxygenupdater.com/article/81/">в цьому оголошенні</a>.\n\n14 серпня 2019 року відбувся перший випуск під новим керівництвом, який отримав нові функції, такі як темний режим та повний редизайн.\n\nДетальніше про нашу команду можна прочитати <a href="https://oxygenupdater.com/team/">на сайті</a>.</string>
+	<string name="about_third_party_app_notice">Зверніть увагу, це не офіційний застосунок від OnePlus.\nІм\'я та бренд OnePlus, логотип OnePlus і OxygenOS є власністю компанії OnePlus.\nAndroid, Google, Google Play та логотип Google Play є зареєстрованими товарними знаками Google Inc.\nЦей застосунок використовує дані OnePlus та її материнської компанії Oppo, щоб показувати інформацію про оновлення.</string>
+	<string name="about_rate_button_text">Оцінити</string>
+	<string name="about_website_button_text">Сайт</string>
+	<string name="about_email_button_text">Електронна пошта</string>
+
+	<!-- LocalNotifications strings -->
+	<string name="notification_permission_title">"Отримувати сповіщення"</string>
+	<string name="notification_permission_text">"Будь ласка, дозвольте додатку повідомляти вас про оновлення OTA, новини, поточний статус завантаження та інші важливі речі. Ви можете налаштувати свої уподобання пізніше в налаштуваннях програми."</string>
+	<string name="notification_new_device_text">Додано підтримку нового пристою — %1$s! Відкрити застосунок.</string>
+	<string name="notification_no_notification_support">Встановіть або оновіть Сервіси Google Play, щоб увімкнути пуш-сповіщення.</string>
+	<string name="notification_version">%1$s доступне для %2$s!</string>
+	<string name="download_and_installation_notifications_group_name">Завантаження і встановлення</string>
+	<string name="push_notifications_group_name">Пуш-сповіщення</string>
+	<string name="miscellaneous_notifications_group_name">Вирішення проблем</string>
+	<string name="download_and_installation_notifications_group_description">Показує всі не важливі сповіщення застосунку Oxygen Updater. Включає індикатор завантаження.</string>
+	<string name="push_notifications_group_description">Показує всі важливі сповіщення застосунку Oxygen Updater. Включає сповіщення про оновлення системи і сповіщення про важливі новини.</string>
+	<string name="download_status_notification_channel_name">Стан завантаження</string>
+	<string name="verification_status_notification_channel_name">Стан перевірки</string>
+	<string name="installation_status_notification_channel_name">Стан встановлення</string>
+	<string name="update_notification_channel_name">Доступне оновлення системи</string>
+	<string name="news_notification_channel_name">Опубліковано нову новину</string>
+	<string name="device_notification_channel_name">Підтримується новий пристрій</string>
+	<string name="general_notification_channel_name">Загальні</string>
+	<string name="url_submitted_notification_channel_name">Надіслано URL-адресу OTA</string>
+	<string name="download_status_notification_channel_description">Сповіщення, які показують поточний стан завантаження: очікування, активний, завершено чи помилка</string>
+	<string name="verification_status_notification_channel_description">Сповіщення, які показують поточний стан перевірки файлу: в процесі, завершено чи помилка.\nДля завантаженого файлу обчислюється хешсума MD5 і перевіряється із завантаженою хешсумою, щоб переконатися що файл оновлення коректний і не пошкоджений.</string>
+	<string name="installation_status_notification_channel_description">Отримувати сповіщення коли оновлення успішно встановиться (або сповіщення про помилку)</string>
+	<string name="update_notification_channel_description">Отримувати сповіщення, якщо буде доступне оновлення для вибраного пристою та для вибраного методу оновлення</string>
+	<string name="news_notification_channel_description">Отримувати сповіщення, коли публікують нову новину</string>
+	<string name="device_notification_channel_description">Отримувати сповіщення, коли до застосунку додають підтримку нового пристрою</string>
+	<string name="general_notification_channel_description">Загальні сповіщення, які не підпадають ні під одну категорію</string>
+	<string name="url_submitted_notification_channel_description">Отримайте сповіщення, коли ви успішно надішлете URL-адреси OTA нашій команді.\nВи можете відмовитися від автоматичного надсилання URL-адрес у налаштуваннях програми.</string>
+
+	<!-- News strings -->
+	<string name="news">Новини</string>
+	<string name="news_load_network_error">Не вдалося відкрити статтю. Перевірте з\'єднання і натисніть кнопку \'Повторити\', щоб відкрити статтю знову.</string>
+	<string name="news_unread_count_1">Є %1$d непрочитаних новин. Натисніть, щоб показати непрочитані новини</string>
+	<string name="news_unread_count_2">Є %1$d непрочитаних новин. Натисніть, щоб показати всі новини</string>
+	<string name="news_mark_read">Відзначити як прочитане</string>
+	<string name="news_mark_unread">Позначити як непрочитане</string>
+	<string name="news_mark_all_read">Позначити всі новини як прочитані</string>
+	<string name="news_empty_state_none_available_header">Немає новин</string>
+	<string name="news_empty_state_all_read_header">Не залишилось нічого, що можна почитати</string>
+	<string name="news_empty_state_none_available_text">На даний момент немає новин, перевірте пізніше.</string>
+	<string name="news_empty_state_all_read_text">Ви прочитали всі новини. Чудово!\nСподіваємося, вам сподобалося читати наші новини, і надіємося що ви почерпнули щось нове для себе.\n\nНатисніть на банер, щоб знову показати всі новини.</string>
+
+	<!-- Contribute strings -->
+	<string name="contribute">Стати помічником</string>
+	<string name="contribute_title">Допомога в покращенні Oxygen Updater</string>
+	<string name="contribute_explanation">Для того, щоб надавати вам останні оновлення, нам потрібно перехоплювати URL-адреси OTA ZIP.\n\nЯк я можу допомогти?\n\nOxygen Updater може автоматично надсилати нові OTA-адреси нашим адміністраторам. Для цього буде використано невелику кількість даних і може витрачатися трохи заряду вашого акумулятора. Вам потрібно надати програмі привілеї root, тому що вона читає файл бази даних, доступ до якого є лише у привілейованих користувачів. Ви отримаєте сповіщення, коли URL буде успішно надіслано.</string>
+	<string name="contribute_agree">Я хотів би допомогти і згоден надіслати OTA URL-адреси нашим адміністраторам</string>
+	<string name="contribute_save">Зберегти налаштування</string>
+	<string name="contribute_more_info">Детальніше</string>
+	<string name="contribute_allow_storage">Будь ласка, надайте права доступу до сховища та root, щоб допомогти покращити додаток</string>
+	<string name="contribute_successful_notification_title">Ви дуже допомогли!</string>
+	<string name="contribute_successful_notification_text">Дякуємо, що поділилися з нами URL-адресами OTA!</string>
+
+	<!-- Error strings-->
+	<string name="error_app_outdated">От халепа!</string>
+	<string name="error_app_outdated_message">Цей застосунок застарів. Час його оновити! Натисніть на \"Google Play\" нижче. В Google Play, виберіть \"Оновлення\".</string>
+	<string name="error_app_requires_network_connection">Немає з\'єднання</string>
+	<string name="error_google_play_button_text">Google Play</string>
+	<string name="error_maintenance">Сервер на обслуговуванні</string>
+	<string name="error_maintenance_message">Будь ласка, зачекайте. Сервер незабаром стане доступним.</string>
+	<string name="error_maintenance_retry"><![CDATA[Сервер може бути закритий на обслуговування. Спробуйте знову через декілька хвилин, або повідомте нам про це через <a href="mailto:support@oxygenupdater.com">електронну пошту</a> або напишіть в <a href="https://discord.gg/5TXdhKJ">чат на Discord</a>.]]></string>
+	<string name="error_reload">Перезавантажити</string>
+
+	<string name="error_unable_to_rate_app">Ви не можете оцінити застосунок, тому що Play Маркет відсутній на вашому пристрої.</string>
+
+	<!-- Message strings -->
+	<string name="delete_message_title">Оновлення завантажено</string>
+	<string name="delete_message_contents">Ви вже завантажили оновлення, але ще його не встановлювали. Натисніть \"Встановлення\", щоб перейти до вікна вибору режиму встановлення цього оновлення. Натисніть \"Видалити\", щоб видалити файл оновлення зі сховища. Натисніть кнопку Назад, щоб закрити це повідомлення.</string>
+	<string name="delete_message_delete_button">Видалити</string>
+
+	<string name="unsupported_device_warning_title">Пристрій не підтримується</string>
+	<string name="carrier_exclusive_device_warning_message">Схоже, ви користуєтесь пристроєм, який заблоковано під оператора. Незважаючи на те, що пристрій працює на OxygenOS, ви не зможете встановити оновлення. Зазвичай оператори блокують пристрій, щоб користувачі не могли оновлювати чи змінювати прошивку без дозволу самого оператора. Це звичайна практика в США: пункт \"Оновлення системи\" видаляється з налаштувань в таких ексклюзивних версіях OxygenOS. Цей параметр необхідний, щоб встановити оновлення самостійно, навіть якщо ви не користуєтеся цим застосунком. На жаль, ми не можемо нічого з цим зробити, оскільки технічно і, можливо, юридично обмежені. Зверніться до нас через електронну пошту або Discord, якщо хочете більше про це дізнатися.</string>
+	<string name="unsupported_device_warning_message">Вітаємо на вашому новому пристрої OnePlus! На жаль, ми поки що не додали підтримку для цього пристрою. Не хвилюйтеся, ми додамо її якнайшвидше. Процес тестування і перевірки нового пристрою досить часозатратний і ми хочемо все зробити як слід, тому, будь ласка, будьте терплячі. Якщо хочете нам допомогти, або отримати сповіщення про випуск нової версії застосунку з підтримкою вашого пристою, тоді напишіть нам листа, або приєднайтеся до нашого сервера Discord.</string>
+	<string name="unsupported_os_warning_message">Схоже, що ваш пристрій не працює на OxygenOS. Зверніть увагу, що оновлення системи можна встановлювати лише на пристрої з OxygenOS.\n\nІнші пристрої, включаючи пристрої OnePlus з кастомними прошивками, не підтримуються.</string>
+
+	<string name="incorrect_device_warning_title">Вибраний пристрій не співпадає</string>
+	<string name="incorrect_device_warning_message">Схоже ви вибрали невірний пристрій: \"%1$s\", замість \"%2$s\". Щоб отримувати нові оновлення та сповіщення саме для вашого пристрою, виберіть його в налаштуваннях застосунку.</string>
+
+	<string name="do_not_show_again_checkbox">"Більше не з'являйся"</string>
+
+	<!-- Purchasing strings -->
+	<string name="purchase_error_pending_payment">Ваша покупка знаходиться в статусі \"очікування платежу\". Після надходження платежу, вам будуть доступні всі переваги платної версії.</string>
+	<string name="purchase_error_after_payment">Не вдалося купити видалення реклами, тому що виникла внутрішня помилка. Будь ласка, спробуйте знову через декілька хвилин. Якщо ви вже купляли, будь ласка, зверніться до підтримки Google Play за допомогою.</string>
+
+	<!-- Other strings-->
+	<string name="icon">Значок</string>
+	<string name="loading">Завантажується…</string>
+	<string name="processing">Опрацювання…</string>
+</resources>

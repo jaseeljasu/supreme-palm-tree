@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Update information strings -->
+	<string name="enable">Aktivera</string>
+	<string name="update_information_file_name">"Filnamn: %1$s"</string>
+	<string name="update_information_md5">MD5: %1$s</string>
+	<!-- TODO: translate this string below -->
+	<string name="update_information_download_link">Since there was a download error, and the download must be restarted, you can use this link to download the update file from a browser instead. You might have to move the downloaded file from the \"Downloads\" directory to its parent directory. This is the same link the app uses to download, which is an official OnePlus OTA server link:\n%1$s</string>
+	<string name="update_information_header">"Uppdatering"</string>
+	<string name="update_information_error_title">Det gick inte att hämta den senaste informationen om uppdateringen</string>
+	<string name="update_information_banner_server">Tryck här för att visa viktiga notiser</string>
+	<!-- TODO: translate these 2 strings below -->
+	<string name="update_information_banner_advanced_mode_tip">You\'ve selected the \"%1$s\" update method. Enable avancerat läge if you plan to switch to this update method.</string>
+	<string name="update_information_header_advanced_mode_hint">Avancerat läge är aktiverat</string>
+	<string name="update_information_header_advanced_mode_helper">Eftersom du har aktiverat avancerat läge kan du ladda ner den senaste ZIP-filen för \"%1$s\". Du kan avaktivera avancerat läge i inställningarna.</string>
+	<string name="update_information_different_version_changelog_notice_base">Observera: Denna ändringslogg gäller den senaste tillgängliga versionen (%1$s) i uppdateringsmetoden \"%2$s\"</string>
+	<string name="update_information_different_version_changelog_notice_advanced">. Om du vill installera den här uppdateringen måste du aktivera "Avancerat läge" i inställningarna.</string>
+	<string name="update_information_no_update_data_available">"Ingen uppdateringsinformation är tillgänglig."</string>
+	<string name="update_information_system_is_up_to_date">"Din enhet är uppdaterad"</string>
+	<string name="update_information_unknown_update_name">"Namnlös uppdatering för: %1$s"</string>
+	<string name="update_information_view_update_information">"Visa uppdateringsinformation"</string>
+
+	<!-- Server status warning strings -->
+	<string name="server_status_error">"Vissa funktioner funkar inte."</string>
+	<string name="server_status_unreachable">"Kan inte nå servern. Försök ladda om sidan."</string>
+	<string name="server_status_warning">"Vissa funktioner kanske inte funkar som de ska."</string>
+
+	<!-- New app version message strings -->
+	<string name="new_app_version">Det finns en uppdatering för appen (%1$s). Tryck här för att öppna Play Store och uppdatera appen.</string>
+	<string name="new_app_version_inapp_downloaded">Appuppdateringen har laddats ner.</string>
+	<string name="new_app_version_inapp_failed">Appuppdateringen kunde inte installeras. Tryck här för att öppna Play Store och uppdatera appen.</string>
+
+	<!-- Downloader strings -->
+	<!-- TODO: translate this string below -->
+	<string name="grant_all_files_access">Please enable \"All files access\" for the app, which is used only for downloading OTA ZIPs to the topmost directory of internal storage</string>
+	<string name="download">Ladda ner uppdatering</string>
+	<string name="downloaded">Uppdatering har nedladdats</string>
+	<string name="downloading">Laddar ner uppdatering…</string>
+	<string name="paused">Pausad - Tryck för att återuppta</string>
+
+	<string name="download_complete">"Nedladdning klar"</string>
+	<string name="download_complete_notification">Tryck här för att starta installationen</string>
+	<string name="download_error">"Nedladdningsfel"</string>
+	<string name="download_error_close">"Stäng"</string>
+	<string name="download_error_corrupt">"Uppdateringsfilen är skadad! Försök ladda ner den igen."</string>
+	<string name="download_error_server">"Ett serverfel uppstod under nedladdningen av uppdateringen. Försök ladda ner den igen."</string>
+	<string name="download_error_internal">Tyvärr uppstod det ett tekniskt fel under nedladdningen av uppdateringen. Försök att ladda ner den igen. Vänligen kontakta apputvecklaren om detta händer igen.</string>
+	<string name="download_error_unsuccessful_response"><![CDATA[Det verkar som att nedladdningslänken är ogiltig. Detta kan betyda att vi antingen har gjort ett misstag när vi lade till uppdateringsdata, eller så har OnePlus tagit bort uppdateringen från deras servrar. En notis har skickats till teamet och vi kommer att kolla på detta så snart som möjligt.
+
+Om du vill veta mer får du kontakta oss antingen genom <a href="mailto:support@oxygenupdater.com">e-post</a> eller i vår <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
+	<string name="download_error_could_not_move_temp_file">Filen har laddats ner men kunde inte flyttas till den rätta katalogen. Öppna en filhanterare, navigera till \"%1$s\" och flytta filen manuellt till den översta katalogen med intern lagring.</string>
+
+	<string name="download_error_retry">"Försök igen"</string>
+	<string name="download_error_resume">"Återuppta"</string>
+	<string name="download_error_storage">"Det finns inte tillräckligt med lagringskapacitet på din enhet. Ta bort filer och försök sedan ladda ned på nytt."</string>
+	<string name="download_failed">"Nerladdningen misslyckades"</string>
+	<string name="download_pending">"Din nedladdning påbörjas snart…"</string>
+	<string name="download_notification_error_server">"Serverfel under nedladdningen. Starta om nedladdningen."</string>
+	<string name="download_notification_error_internal">"Tekniskt fel under nedladdningen. Starta om nedladdningen eller kontakta support."</string>
+	<string name="download_notification_error_storage_full">Otillräckligt lagringsutrymme</string>
+	<string name="download_notification_error_corrupt">"Filverifikationen misslyckades. Kontrollera din anslutning och försök igen."</string>
+
+	<string name="download_progress_text_hours_remaining">"Ungefär %1$d timmar kvar"</string>
+	<string name="download_progress_text_less_than_a_minute_remaining">"mindre än en minut kvar"</string>
+	<string name="download_progress_text_minutes_remaining">"ungefär %1$d minuter kvar"</string>
+	<string name="download_progress_text_one_hour_remaining">ungefär en timme kvar</string>
+	<string name="download_progress_text_one_minute_remaining">"ungefär en minut kvar"</string>
+	<string name="download_progress_text_seconds_remaining">"några sekunder kvar"</string>
+	<string name="download_progress_text_unknown_time_remaining">Beräknar nedladdningstid…</string>
+	<string name="download_progress_text_verifying">"Verifierar fil…"</string>
+	<string name="download_verifying">"Verifierar…"</string>
+	<string name="download_verifying_error">"Filen är skadad"</string>
+	<string name="download_verifying_start">"Din nedladdning blir nu verifierad…"</string>
+	<string name="download_progress_text_paused">Pausad</string>
+
+	<!-- Settings strings -->
+	<string name="preference_header_support">Stöd oss</string>
+	<string name="preference_header_device">Enhet</string>
+	<string name="preference_header_ui">UI</string>
+	<string name="preference_header_notifications">Notiser</string>
+	<string name="preference_header_advanced">Avancerat</string>
+	<string name="preference_header_about">Om</string>
+
+	<string name="summary_on">På</string>
+	<string name="summary_off">Av</string>
+	<string name="summary_please_wait">Var god vänta…</string>
+	<string name="summary_update_method">Välj en enhet först</string>
+	<!-- TODO: check the following translation -->
+	<string name="summary_important_notifications_disabled">Vissa viktiga meddelanden är inaktiverade:</string>
+	<string name="summary_privacy_policy">Visa online</string>
+	<string name="summary_rate_app">Ge ett femstjärnigt omdöme</string>
+
+	<string name="label_buy_ad_free">Ta bort reklam</string>
+	<string name="label_theme">Tema</string>
+	<string name="label_language">Språk</string>
+	<string name="label_privacy_policy">Integritetspolicy</string>
+	<string name="label_rate_app">Ge appen ett omdöme</string>
+
+	<string name="theme_light">Ljus</string>
+	<string name="theme_dark">Mörk</string>
+	<string name="theme_system">System</string>
+	<string name="theme_auto">Auto</string>
+
+	<string name="theme_dark_subtitle">Nedtonad OnePlus-röd primär färg, med en nästan svart bakgrund. Använd detta tema för att spara batteri, framför allt på AMOLED-skärmar.</string>
+	<string name="theme_system_subtitle">Använd systemets nattläge (du kan ställa in det i antingen skärminställningar eller utvecklarinställningar). Beror på enhet.</string>
+	<string name="theme_auto_subtitle">Byt mellan ljusa och mörka teman baserat på tid på dagen, för att undvika ansträngning för ögonen på natten</string>
+	<string name="theme_additional_note">Obs. om \"Auto\" är aktivt och batterispararläget är på kommer det mörka temat användas oavsett tid på dygnet för att spara batteri</string>
+
+	<string name="settings">"Inställningar"</string>
+	<string name="settings_buy_button_buy">"Köp (%1$s)"</string>
+	<string name="settings_buy_button_bought">"Köpt"</string>
+	<string name="settings_buy_button_not_possible">"Otillgänglig"</string>
+	<string name="settings_buy_ad_free_label">"Uppgradera till reklamfritt"</string>
+
+	<string name="settings_contribute_label">Hjälp till med att förbättra appen</string>
+
+	<string name="settings_device">"Enhet"</string>
+	<string name="settings_entered_incorrectly">"Kunde inte spara dina inställningar. Gå tillbaka och välj din enhet och uppdateringsmetod igen."</string>
+	<string name="settings_push_from_server">"Viktigt meddelande är tillgängligt"</string>
+	<string name="settings_saving">"Dina inställningar sparas fortfarande. Om detta tar för lång tid: Kolla din nätverksanslutning, stäng sedan av applikationen och starta den igen."</string>
+	<string name="settings_advanced_mode">"Avancerat läge"</string>
+	<string name="settings_advanced_mode_explanation">"Normalt visar appen uppdateringar baserat på din aktuella OS-version. Med avancerat läge visas alltid den senaste tillgängliga uppdateringen, oavsett kompatibilitet mellan enhet och version.
+
+Detta kan vara användbart om du vill:"</string>
+	<string name="settings_advanced_mode_uses">"&#8226; Ladda ner den senaste versionen igen, även om du redan har den
+&#8226; Växla till ett annat uppdateringsspår"</string>
+	<string name="settings_advanced_mode_caption">"Avancerat läge kan behövas endast i ovanstående situationer. Du bör inte aktivera det om du inte vet vad du gör."</string>
+	<string name="settings_update_method">"Uppdateringsmetod"</string>
+	<string name="settings_upload_logs">Dela användningsdata och loggar</string>
+	<string name="settings_ad_privacy">GDPR samtycke för annonser</string>
+	<string name="settings_ad_privacy_subtitle">"För användare i EES/Storbritannien"</string>
+
+	<!-- FAQ strings -->
+	<string name="faq">"FAQ"</string>
+	<string name="faq_menu_item">"FAQ"</string>
+
+	<!-- First-time setup strings -->
+	<string name="onboarding">"Inställning"</string>
+	<string name="onboarding_finished_button">Starta appen</string>
+	<string name="onboarding_app_uses">"Denna app kommer låta dig:
+
+&#8226; Få snabbare tillgång till Android uppdateringar för din enhet med OxygenOS
+&#8226; Enkelt uppdatera en rootad enhet
+&#8226; Ta reda på vad som är nytt i den system mjukvaran du använder just nu
+&#8226; Läsa de senaste nyheterna som relaterar till OnePlus och OXygenOS"</string>
+	<string name="onboarding_disclaimer">"Detta är inte en officiell OnePlus applikation. Användande av denna app är helt på egen risk. Vare sig OnePlus eller utvecklaren av denna app är ansvariga för dina handlingar, detta inkluderar skada av din enhet som har tillkommit efter användande av denna app. Genom att använda denna app accepterar du de ovanstående villkoren."</string>
+	<string name="onboarding_device_chooser_title">"Välj din enhet:"</string>
+	<string name="onboarding_device_chooser_caption">"Din enhet är oftast redan förvald ovan, om inte, välj din enhet ovan."</string>
+	<string name="onboarding_method_chooser_title">"Välj din uppdateringsmetod:"</string>
+	<string name="onboarding_method_chooser_caption">"Vanligtvis är en inkrementell uppdatering rätt val eftersom den möjliggör snabbare och mindre nedladdningsstorlek. Däremot är det inte kompatibelt med rostade enheter. Välj istället en full uppdatering om du har en rootad enhet. Om du har installerat en beta version av OxygenOS, välj en av uppdateringsmetoderna för Open Beta."</string>
+	<string name="onboarding_caption">"Hoppas du kommer tycka om appen! Du kan alltid ändra inställningar senare."</string>
+
+	<!-- Automatic install strings -->
+	<string name="install">"Installera"</string>
+
+	<!-- Install guide strings -->
+	<string name="install_guide">"Installationsguide"</string>
+	<string name="install_guide_download_instructions">"&#8226; Tryck på nedladdningsknappen för att starta nedladdningen av uppdateringen.
+&#8226; Nedladdningens status kommer visas i appen och som en notifikation på din enhet.
+&#8226; När nedladdningen är klar visas en notifikation med texten \"Nedladdning klar\". Om ett nedladdningsfel inträffat öppnar du appen och försöker hämta uppdateringen igen. Om det inte fungerar, se till att du har en fungerande anslutning. Annars kontakta utvecklaren av appen. Du kan göra det genom att besöka sektionen \"Mina appar\" i Google Play Butik."</string>
+
+	<!-- Device information strings -->
+	<string name="device_information_supported_oxygen_os">Vi har stöd flr din enhet</string>
+	<string name="device_information_carrier_exclusive_oxygen_os">Vi har inte stöd för din enhet därför att den är låst till en operatör.</string>
+	<string name="device_information_unsupported_oxygen_os">Vi har inte stöd för din nya enhet än.</string>
+	<string name="device_information_unsupported_os">Vi har inte stöd för din enhet därför att den inte kör OxygenOS.</string>
+
+	<string name="device_information_hardware_header">Hårdvara</string>
+	<string name="device_information_software_header">Mjukvara</string>
+
+	<string name="device_information_amount_of_memory">"Mängd av RAM:"</string>
+	<string name="device_information_cpu_frequency">"Processorfrekvens:"</string>
+	<string name="device_information_header">"Enhet"</string>
+	<string name="device_information_image_description">"Enhetsbild"</string>
+	<string name="device_information_incremental_os_version">Inkrementell OS-version</string>
+	<string name="device_information_os_version">Android-version</string>
+	<string name="device_information_oxygen_os_version">OS-version</string>
+	<string name="device_information_oxygen_os_ota_version">OTA-version</string>
+	<string name="device_information_patch_level_version">"Version av säkerhetsuppdatering:"</string>
+	<string name="device_information_serial_number">"Serienummer:"</string>
+	<string name="device_information_system_on_a_chip">"System on a Chip:"</string>
+	<string name="device_information_unknown">"okänt"</string>
+
+	<!-- About screen strings -->
+	<string name="about">"Om appen"</string>
+	<!-- TODO: translate these 3 strings below -->
+	<string name="about_description">This app downloads official updates directly from OnePlus servers, and even verifies the integrity of the downloaded ZIP before allowing you to install. By doing so, the app allows you to skip the rollout queue and install official updates ASAP. If you encounter bugs in the OS, report them to OnePlus directly: <a href="https://forums.oneplus.com/feedback">https://forums.oneplus.com/feedback</a>. You might want to join our <a href="https://discord.gg/5TXdhKJ">Discord server</a> as well, so that you can talk to other users about the latest updates. Otherwise feel free to email us at <a href="mailto:support@oxygenupdater.com">support@oxygenupdater.com</a> with your suggestions/feedback.</string>
+	<string name="about_support">If you\'d like to support us, you can either buy the ad-free unlock (app\'s settings), or check our <a href="https://patreon.com/oxygenupdater">Patreon page</a>.</string>
+	<string name="about_background_story_header">Background story</string>
+	<string name="about_background_story">Appen utvecklades från början av Arjan Vlek som en uppföljning av en annan av hans appar, <a href="https://cyanogenupdatetracker.com/">Cyanogen Update Tracker</a> (den ger liknande funktionalitet för Cyanogen OS-användare).\n\nEfter 4 år (juli 2019) bestämde Arjan sig för att inte längre delta i något av projekten och överförde ägandet till en grupp utvecklare från olika länder. De tog ansvaret att ge communityt en utmärkt tjänst &amp; stöd för att få OnePlus uppdateringar tidigare.\nDu kan hitta mer information om meddelandet <a href="https://oxygenupdater.com/article/81/">här</a>.\n\n14e Augusti 2019 släpptes den första uppdateringen under nytt ägande som kom med nya funktioner, t.ex mörkt tema och en helt ny design.\n\nFör mer information om gruppen kan du kolla <a href="https://oxygenupdater.com/team/">vår webbsida</a>.</string>
+	<string name="about_third_party_app_notice">Obs. Denna appen är inte en officiel applikation från OnePlus.\nOnePlus namn, OnePlus logga och OxygenOS tillhör OnePlus.\nAndroid, Google, Google Play och Google Plays logga är registrerade varumärken som tillhör Google.\nAppen använder data från oneplus och oneplus moderbolag Oppo för att visa uppdateringsinformation.</string>
+	<string name="about_rate_button_text">"Betygsätt"</string>
+	<string name="about_website_button_text">Webbsida</string>
+	<string name="about_email_button_text">E-post</string>
+
+	<!-- LocalNotifications strings -->
+	<string name="notification_permission_title">"Håll dig underrättad"</string>
+	<string name="notification_permission_text">"Tillåt att appen meddelar dig om OTA-uppdateringar, nyheter, pågående nedladdningsstatus och andra viktiga saker. Du kan finjustera dina preferenser senare i appens inställningar."</string>
+	<string name="notification_new_device_text">"%1$s har nu våran support. Öppna appen för att välja denna enhet."</string>
+	<string name="notification_no_notification_support">"Installera eller uppdatera Google Play services för att slå på push-notifikationer."</string>
+	<string name="notification_version">"%1$s är nu tillgänglig för %2$s!"</string>
+	<!-- TODO: translate these 19 strings below -->
+	<string name="download_and_installation_notifications_group_name">Download &amp; Installation</string>
+	<string name="push_notifications_group_name">Pushnotiser</string>
+	<string name="miscellaneous_notifications_group_name">Miscellaneous</string>
+	<string name="download_and_installation_notifications_group_description">"Visar alla oviktiga notifikationer från Oxygen Updater appen. Innehåller status indikatorerna som visas under nedladdning."</string>
+	<string name="push_notifications_group_description">Visar alla viktiga notifikationer från Oxygen Updater-appen. Dessa inkluderar notifikationer för systemuppdateringar och nyheter.</string>
+	<string name="download_status_notification_channel_name">Download status</string>
+	<string name="verification_status_notification_channel_name">Verification status</string>
+	<string name="installation_status_notification_channel_name">Installation status</string>
+	<string name="update_notification_channel_name">"Systemuppdatering tillgänglig"</string>
+	<string name="news_notification_channel_name">News article published</string>
+	<string name="device_notification_channel_name">"Ny enhet stöds"</string>
+	<string name="general_notification_channel_name">General</string>
+	<string name="url_submitted_notification_channel_name">OTA URL inskickad</string>
+	<string name="download_status_notification_channel_description">Notifications that reflect the current state of a download: pending, active, completed, or failed</string>
+	<string name="verification_status_notification_channel_description">Notifications that reflect the current state of a file verification task: in-progress, completed, or failed.\nMD5 checksums for downloaded files are verified to ensure the file hasn\'t been tampered with, and is a valid update file.</string>
+	<string name="installation_status_notification_channel_description">Get notified if an update was successfully installed or not</string>
+	<string name="update_notification_channel_description">Get notified when there\'s a new update available for your selected device &amp; update method</string>
+	<string name="news_notification_channel_description">Get notified when we publish a news article</string>
+	<string name="device_notification_channel_description">Get notified when the app adds support for a new device</string>
+	<string name="general_notification_channel_description">General notifications that don\'t fit into other categories</string>
+	<string name="url_submitted_notification_channel_description">Få ett meddelande när du har skickat in OTA-adresser till vårt team.\nDu kan välja bort att automatiskt skicka in webbadresser i appens inställningar.</string>
+
+	<!-- News strings -->
+	<string name="news">"Nyheter"</string>
+	<string name="news_load_network_error">"Misslyckades att öppna artikeln. Kontrollera din anslutning och tryck sedan på 'Försök igen' knappen för att öppna artikeln."</string>
+	<string name="news_unread_count_1">Du har %1$d olästa nyhetsartiklar. Tryck här för att se dem.</string>
+	<string name="news_unread_count_2">Du har %1$d olästa nyhetsartiklar. Tryck för att visa alla artiklar.</string>
+	<string name="news_mark_read">Markera som läst</string>
+	<string name="news_mark_unread">Markera som oläst</string>
+	<string name="news_mark_all_read">Marera alla artiklar som lästa.</string>
+	<string name="news_empty_state_none_available_header">Inga artiklar än</string>
+	<string name="news_empty_state_all_read_header">Det finns inget mer att läsa.</string>
+	<string name="news_empty_state_none_available_text">Det finns inga artiklar tillgängliga just nu, kom tillbaka senare.</string>
+	<string name="news_empty_state_all_read_text">Du har läst alla artiklar. Bra jobbat!\nVi hoppas att du tyckte om våra artiklar och lärde dig något nytt.\n\nTryck på rubriken igen för att visa alla nyhetsartiklar</string>
+
+	<string name="contribute">Bli en bidragare</string>
+	<string name="contribute_title">Hjälp till att förbättra Oxygen Updater</string>
+	<string name="contribute_explanation">För att kunna ge dig de senaste uppdateringarna måste vi samla in OTA ZIP-URL:er.\n\nHur kan jag hjälpa till?\n\nOxygen Updater kan automatiskt skicka nya OTA-adresser till våra administratörer. Detta kommer att använda en liten mängd data och kan använda lite av ditt batteri. Du måste ge root-behörighet till appen eftersom den läser en databasfil som endast är åtkomlig via root. Du kommer att meddelas när en URL har skickats in.</string>
+	<string name="contribute_agree">Jag vill gärna hjälpa till och samtycker till att skicka OTA-URL:er till våra administratörer</string>
+	<string name="contribute_save">Spara inställningar</string>
+	<string name="contribute_more_info">Mer info</string>
+	<string name="contribute_allow_storage">Vänligen bevilja lagrings- och rotbehörighet för att förbättra appen</string>
+	<string name="contribute_successful_notification_title">Bidrag lyckades</string>
+	<string name="contribute_successful_notification_text">Tack för att du delar OTA-URL:er med oss!</string>
+
+	<!-- Error strings -->
+	<string name="error_app_outdated">"Åh nej!"</string>
+	<string name="error_app_outdated_message">"Den här versionen av appen är utdaterad- Det är dags att uppdatera den! Tryck på \"Google Pay\" nedan. Klicka sedan på \"Uppdatera\" inuti appen."</string>
+	<string name="error_app_requires_network_connection">Ingen anslutning</string>
+	<string name="error_google_play_button_text">"Google Play"</string>
+	<string name="error_maintenance">"Serverunderhåll"</string>
+	<string name="error_maintenance_message">"Var god vänta. Servern är strax tillgänglig."</string>
+	<string name="error_maintenance_retry"><![CDATA[Servern kan vara nere för underhåll. Försök igen om en stund eller rapportera det via <a href="mailto:support@oxygenupdater.com">e-post</a> eller i vår <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
+	<string name="error_reload">"Ladda om"</string>
+	<string name="error_unable_to_rate_app">"Du kan inte rösta på appen eftersom Google Play Butik saknas på din enhet"</string>
+
+	<!-- Message strings -->
+	<string name="delete_message_title">"Uppdateringen är redan nerladdad"</string>
+	<string name="delete_message_contents">"Du har redan laddat ner denna uppdatering, men inte installerat den än. Tryck på \"Installera\" för att se hur du installerar denna uppdatering. Tryck på \"Ta bort\" för att permanent ta bort filen. Tryck på bakåtknappen för att stänga detta meddelande."</string>
+	<string name="delete_message_delete_button">"Ta bort"</string>
+	<string name="unsupported_device_warning_title">"Enhet stöds inte"</string>
+	<!-- TODO: translate the 2 strings below -->
+	<string name="carrier_exclusive_device_warning_message">It looks like you\'re using a carrier-exclusive device. Even though you\'re running OxygenOS, you won\'t be able to install updates. Carriers usually lock down the device so that users can\'t update or modify the firmware without permission from the carrier itself. This is a common practice in the USA: the "Local Upgrade" option is removed from carrier-exclusive versions of OxygenOS. This option is necessary to install updates by yourself, even if you don\'t use this app. Unfortunately, we can\'t do anything about this, as we\'re technically, and possibly, legally limited. Reach out to us via email or Discord for more clarity.</string>
+	<string name="unsupported_device_warning_message">Congratulations on your new OnePlus device! Unfortunately, we haven\'t added support for this device yet. Don\'t worry though, we\'ll add it as soon as we can. We don\'t like making mistakes, and it\'s a time-consuming process to verify and test support for new devices, so please be patient. Email us or join our Discord server if you\'d like to help us, or to get notified when we release a new version of the app that includes support for your device.</string>
+	<string name="unsupported_os_warning_message">"Det verkar som din enhet inte har OxygenOS installerat. Du kan enbart installera system uppdateringar på enheter som har OxygenOS installerat.
+
+Andra enheter samt OnePlus enheter som har \"Custom ROMs\" installerade är inte stöttade av appen."</string>
+
+	<!-- TODO: translate these 2 strings below -->
+	<string name="incorrect_device_warning_title">Selected device mismatch</string>
+	<string name="incorrect_device_warning_message">It looks like you\'ve selected the wrong device: \"%1$s\", instead of \"%2$s\". Change your selection in the app\'s settings to ensure you receive updates and notifications for the correct device.</string>
+
+	<string name="do_not_show_again_checkbox">"Visa inte igen"</string>
+
+	<!-- Purchasing strings -->
+	<!-- TODO: translate this string below -->
+	<string name="purchase_error_pending_payment">Ditt köp behandlas. När betalningen är klar kommer du få tillgång till alla fördelar du har rätt till.</string>
+	<string name="purchase_error_after_payment">"Köpet av den reklamfria utgåvan misslyckades på grund av ett internt fel. Vänligen försök igen om några minuter. Har du redan betalat kan du kontakta Google Play supporten för assistans."</string>
+
+	<!-- Other strings -->
+	<string name="icon">"Ikon"</string>
+	<string name="loading">"Laddar…"</string>
+	<string name="processing">"Bearbetar…"</string>
+	<string name="update_information_description_not_available">"Det finns ingen officiell information om de nya funktionerna denna uppdatering innehåller. Vanligtvis innehåller en sådan uppdatering buggfixar, prestandaförbättringar och / eller viktiga säkerhetsuppdateringar för din enhet."</string>
+	<string name="theme_light_subtitle">Tema med en vit bakgrund och OnePlus-röd primär färg</string>
+
+</resources>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Update information strings -->
+	<string name="enable">Ota käyttöön</string>
+	<string name="update_information_file_name">"Tiedostonimi: %1$s"</string>
+	<string name="update_information_md5">MD5: %1$s</string>
+	<string name="update_information_download_link">Koska lataus epäonnistui ja lataus täytyy aloittaa alusta, voit käyttää tätä linkkiä päivityksen lataamiseen selaimen kautta. Luultavasti sinun täytyy siirtää ladattu tiedosto \"Lataukset\" kansiosta ylempään juurikansioon. Tämä linkki on sama linkki, jota sovellus käyttää päivityksen lataamiseen ja se on virallinen OnePlus OTA palvelin linkki:\n%1$s</string>
+	<string name="update_information_header">"Päivitys"</string>
+	<string name="update_information_error_title">Ei voitu hakea uusia päivitystietoja</string>
+	<string name="update_information_banner_server">Paina tästä nähdäksesi tärkeät ilmoitukset</string>
+	<!-- TODO: translate these 2 strings below -->
+	<string name="update_information_banner_advanced_mode_tip">You\'ve selected the \"%1$s\" update method. Enable kehittynyt tila if you plan to switch to this update method.</string>
+	<string name="update_information_header_advanced_mode_hint">Edistynyt tila on käytössä</string>
+	<string name="update_information_header_advanced_mode_helper">Edistynyt tila on käytössä, voit ladata viimeisimmän \"%1$s\" ZIP:in. Edistyneen tilan saat pois käytöstä asetuksista.</string>
+	<string name="update_information_different_version_changelog_notice_base">Huomautus: tämä muutosluettelo koskee uusinta saatavilla olevaa versiota (%1$s) \"%2$s\" päivitysmenetelmällä</string>
+	<string name="update_information_different_version_changelog_notice_advanced">. Jos aiot asentaa tämän päivityksen, sinun on otettava asetuksissa käyttöön \"Kehittynyt tila\".</string>
+	<string name="update_information_no_update_data_available">"Päivitystietoja ei saatavilla"</string>
+	<string name="update_information_system_is_up_to_date">"Järjestelmäsi on ajan tasalla."</string>
+	<string name="update_information_unknown_update_name">"Versionumeroton päivitys laitteelle %1$s"</string>
+	<string name="update_information_view_update_information">"Katso päivityksen tiedot"</string>
+
+	<!-- Server status warning strings -->
+	<string name="server_status_error">"Jotkin toiminnallisuudet eivät toimi"</string>
+	<string name="server_status_unreachable">"Palvelimeen ei saada yhteyttä. Yritä päivittää sivu."</string>
+	<string name="server_status_warning">"Jotkin toiminnallisuudet eivät ehkä toimi oikein"</string>
+
+	<!-- New app version message strings -->
+	<string name="new_app_version">Sovelluspäivitys saatavilla (%1$s). Paina tästä avataksesi Play Kaupan ja päivitä sovellus.</string>
+	<string name="new_app_version_inapp_downloaded">Sovelluspäivitys ladattu</string>
+	<string name="new_app_version_inapp_failed">Sovelluspäivitystä ei voitu asentaa. Paina tästä avataksesi Play Kaupan ja päivitä sovellus.</string>
+
+	<!-- Downloader strings -->
+	<!-- TODO: translate this string below -->
+	<string name="grant_all_files_access">Please enable \"All files access\" for the app, which is used only for downloading OTA ZIPs to the topmost directory of internal storage</string>
+	<string name="download">Lataa päivitys</string>
+	<string name="downloaded">Päivitys ladattu</string>
+	<string name="downloading">Ladataan päivitystä…</string>
+	<string name="paused">Pysäytetty - paina jatkaaksesi</string>
+
+	<string name="download_complete">"Lataus on valmistunut"</string>
+	<string name="download_complete_notification">"Napsauta käynnistääksesi asennus"</string>
+	<string name="download_error">"Virhe ladattaessa"</string>
+	<string name="download_error_close">"Sulje"</string>
+	<string name="download_error_corrupt">"Ladatattu päivitystiedosto on vahingoittunut! Ole hyvä ja yritä ladata se uudelleen."</string>
+	<string name="download_error_server">Latauksen aikana tapahtui palvelinvirhe. Ole hyvä ja yritä latausta uudelleen.</string>
+	<string name="download_error_internal">Valitettavasti latauksen aikana tapahtui tekninen virhe. Yritä latausta uudelleen. Mikäli ongelma jatkuu, ole hyvä ja ota yhteyttä sovelluksen kehittäjään avun saamiseksi.</string>
+	<string name="download_error_unsuccessful_response"><![CDATA[Näyttäisi siltä, että latauslinkki on viallinen. Tämä tarkoittaa sitä, että joko me teimme virheen päivitystietojen lisäämisessä, tai OnePlus on poistanut päivitystiedoston palvelimiltaan. Ilmoitus on lähetetty tiimille ja tutkimme tätä mahdollisimman pian.
+
+Jos haluat tietää enemmän, voit ottaa yhtettä joko <a href="mailto:support@oxygenupdater.com">sähköpostilla</a> tai meidän <a href="https://discord.gg/5TXdhKJ">Discord palvelimella</a>.]]></string>
+	<string name="download_error_could_not_move_temp_file">Tiedosto ladattu, mutta sitä ei voitu siirtää oikeaan kansioon. Avaa tiedostonhallinta, navigoi \"%1$s\" polkuun ja siirrä tiedosto sisäisen tallennustilan juureen.</string>
+
+	<string name="download_error_retry">"Uudelleen"</string>
+	<string name="download_error_resume">"Jatkaa"</string>
+	<string name="download_error_storage">"Laitteessasi ei ole tarpeeksi vapaata tallennustilaa päivityksen lataamiseksi. Vapauta tilaa laittteestasi poistamalla tiedostoja ja yritä ladata päivitys uudelleen."</string>
+	<string name="download_failed">"Lataus epäonnistui"</string>
+	<string name="download_pending">"Latauksesi alkaa pian…"</string>
+	<string name="download_notification_error_server">Palvelinvirhe tapahtui latauksen aikana. Käynnistä lataus uudelleen.</string>
+	<string name="download_notification_error_internal">Tekninen virhe tapahtui latauksen aikana. Käynnistä lataus uudelleen tai ota yhteyttä tukeen.</string>
+	<string name="download_notification_error_storage_full">"Tallennustila ei riitä."</string>
+	<string name="download_notification_error_corrupt">"Tiedoston tarkistus epäonnistui. Tarkista yhteytesi ja yritä uudelleen."</string>
+
+	<string name="download_progress_text_hours_remaining">"Noin %1$d tuntia jäljellä"</string>
+	<string name="download_progress_text_less_than_a_minute_remaining">"Alle minuutti jäljellä"</string>
+	<string name="download_progress_text_minutes_remaining">"Noin %1$d minuuttia jäljellä"</string>
+	<string name="download_progress_text_one_hour_remaining">"Noin 1 tunti jäljellä"</string>
+	<string name="download_progress_text_one_minute_remaining">"Noin minuutti jäljellä"</string>
+	<string name="download_progress_text_seconds_remaining">"Muutama sekunti jäljellä"</string>
+	<string name="download_progress_text_unknown_time_remaining">"Lasketaan jäljellä olevaa aikaa…"</string>
+	<string name="download_progress_text_verifying">"Tarkistetaan tiedostoa…"</string>
+	<string name="download_progress_text_paused">"Keskeytetty…"</string>
+
+	<string name="download_verifying">"Tarkistetaan…"</string>
+	<string name="download_verifying_error">"Tiedosto on vioittunut"</string>
+	<string name="download_verifying_start">"Lataustasi tarkistetaan nyt…"</string>
+
+	<!-- Settings strings -->
+	<string name="preference_header_support">Tue meitä</string>
+	<string name="preference_header_device">Laite</string>
+	<string name="preference_header_ui">Käyttöliittymä</string>
+	<string name="preference_header_notifications">Ilmoitukset</string>
+	<string name="preference_header_advanced">Edistyneet</string>
+	<string name="preference_header_about">Tietoja</string>
+
+	<string name="summary_on">Käytössä</string>
+	<string name="summary_off">Pois käytöstä</string>
+	<string name="summary_please_wait">Ole hyvä ja odota…</string>
+	<string name="summary_update_method">Valitse laite ensin</string>
+	<!-- TODO: check the following translation -->
+	<string name="summary_important_notifications_disabled">Jotkin tärkeät ilmoitukset on poistettu käytöstä:</string>
+	<string name="summary_privacy_policy">Katso verkkosivuilta</string>
+	<string name="summary_rate_app">Anna 5 tähden arvostelu</string>
+
+	<string name="label_buy_ad_free">Poista mainokset</string>
+	<string name="label_theme">Teema</string>
+	<string name="label_language">Kieli</string>
+	<string name="label_privacy_policy">Yksityisyyskäytäntö</string>
+	<string name="label_rate_app">Arvioi tämä sovellus</string>
+
+	<string name="theme_light">Vaalea</string>
+	<string name="theme_dark">Tumma</string>
+	<string name="theme_system">Järjestelmä</string>
+	<string name="theme_auto">Automaattinen</string>
+
+	<string name="theme_light_subtitle">Teema valkoisella taustalla ja OnePlus punainen päävärinä</string>
+	<string name="theme_dark_subtitle">Hillitysti OnePlus punaista päävärinä, melkein musta taustaväri. Käytä tätä säästääksesi akkua, erityisesti AMOLED näytöillä.</string>
+	<string name="theme_system_subtitle">Käytä järjestelmän yötilaa (Voit asettaa tämän joko näytön asetuksissa tai kehittäjä välikosta). Vaihtelee laitteittain.</string>
+	<string name="theme_auto_subtitle">Vaihda vaalean ja tumman teeman välillä kellonajan perusteella estääksesi silmien rasitusta öisin</string>
+	<string name="theme_additional_note">Huomaa: Jos \"Automaattinen\" teema on aktiivinen ja akun säästö on käytössä, tummaa teemaa käytetään automaattisesti akun säästämiseen vuorokaudenajasta riippumatta.</string>
+
+	<string name="settings">"Asetukset"</string>
+	<string name="settings_buy_button_buy">"Osta (%1$s)"</string>
+	<string name="settings_buy_button_bought">"Ostettu"</string>
+	<string name="settings_buy_button_not_possible">"Ei saatavilla"</string>
+	<string name="settings_buy_ad_free_label">"Päivitä mainosvapaaseen"</string>
+
+	<string name="settings_contribute_label">Auta parantamaan sovellusta</string>
+
+	<string name="settings_device">"Laite"</string>
+	<string name="settings_entered_incorrectly">"Virhe tallennettaessa asetuksia. Ole hyvä mene takaisin ja valitse laite / päivitystapa uudelleen."</string>
+	<string name="settings_push_from_server">"Tiedotus- ja varoitusviestit"</string>
+	<string name="settings_saving">"Asetuksiasi tallennetaan edelleen. Jos tämä tuntuu vievän liian pitkään varmista verkkoyhteytesi, sulje sovellus ja käynnistä se uudelleen."</string>
+	<string name="settings_advanced_mode">"Kehittynyt tila"</string>
+	<string name="settings_advanced_mode_explanation">"Normaalisti sovellus näyttää päivitykset nykyisen käyttöjärjestelmäversion mukaan. Edistyneessä tilassa näytetään aina uusin saatavilla oleva päivitys riippumatta laitteen/version yhteensopivuudesta.
+
+Tästä voi olla hyötyä, jos haluat:"</string>
+	<string name="settings_advanced_mode_uses">"&#8226; Lataa uusin versio uudelleen, vaikka se olisi jo käytössäsi
+&#8226; Vaihtaa eri päivitysraidalle"</string>
+	<string name="settings_advanced_mode_caption">"Edistynyttä tilaa saatetaan tarvita vain edellä mainituissa tilanteissa. Sitä ei kannata ottaa käyttöön, ellet tiedä, mitä olet tekemässä."</string>
+	<string name="settings_update_method">"Päivitystapa"</string>
+	<string name="settings_upload_logs">Jaa käyttötiedot ja lokit</string>
+	<string name="settings_ad_privacy">GDPR-mainonnan suostumus</string>
+	<string name="settings_ad_privacy_subtitle">"ETA:n/UK:n käyttäjille"</string>
+
+	<!-- FAQ strings -->
+	<string name="faq">"UKK"</string>
+	<string name="faq_menu_item">"UKK"</string>
+
+	<!-- First-time setup strings -->
+	<string name="onboarding">"Setup"</string>
+	<string name="onboarding_finished_button">"Käynnistä sovellus"</string>
+	<string name="onboarding_app_uses">"Tämä sovellus mahdollistaa sinulle:
+
+&#8226; Nopeamman pääsyn viimeisimpiin Android päivityksiin OxygenOS laitteellesi
+&#8226; Rootatun laitteen päivittämisen helposti
+&#8226; Katsoa mitkä ovat uudistukset käytössäsi olevassa järjestelmäversiossa
+&#8226; Lukea viimeisimpiä uutisia koskien OnePlussaa ja OxygeOS"</string>
+	<string name="onboarding_disclaimer">"Tämä ei ole virallinen OnePlus sovellus. Tämän sovelluksen käyttö tapahtuu täysin omalla vastuullasi. OnePlus tai sovelluksen kehittäjä eivät ole vastuussa tekemistäsi toimenpiteistä, mukaanlukien mitkä tahansa vahingot joita sovelluksen käytöstä aiheutuu. Käyttämällä sovellusta hyväksyt yllä olevat käyttöehdot."</string>
+	<string name="onboarding_device_chooser_title">"Valitse laitteesi:"</string>
+	<string name="onboarding_device_chooser_caption">"Laitteesi on normaalisti jo oletuksena valittuna yläpuolella. Mikäli näin ei ole, valitse laitteesi yläpuolelta."</string>
+	<string name="onboarding_method_chooser_title">"Valitse päivitystapasi"</string>
+	<string name="onboarding_method_chooser_caption">"Yleensä lisäävä päivitys on oikea valinta tässä kohtaa, koska se tarjoaa nopeammat ja pienemmät latauskoot Kuitenkaan tämä ei ole yhteensopiva tapa rootatuille laitteille. Jos laitteesi on rootattu valitse Täydellinen päivitys. Jos sinulla on beta versio OxygenOS:stä, valitse jokin Open Beta päivitystavoista."</string>
+	<string name="onboarding_caption">"Nauti sovelluksesta! Voit aina muuttaa asetuksia myöhemmin."</string>
+
+	<!-- Automatic install strings -->
+	<string name="install">"Asenna"</string>
+
+	<!-- Install guide strings -->
+	<string name="install_guide">"Asennusohje"</string>
+	<string name="install_guide_download_instructions">"&#8226; Paina lataa painiketta käynnistääksesi päivityksen lataamisen.
+&#8226; Latauksen edistyminen tulee näkyviin sovelluksessa ja ilmoituksena ilmoituskeskuksessa.
+&#8226; Kun lataus on valmistunut näet ilmoituksen \"Lataus valmis\".
+Jos latauksessa ilmenee virhe, avaa sovellus ja yritä ladata päivitys uudelleen. Jos tämä ei toimi varmista, että sinulla on toimiva yhteys. Muutoin olen yhteydessä sovelluksen kehittäjään. Voit tehdä tämän myös vierailemalla \"Omat sovellukset\" osiossa Play Kaupassa."</string>
+
+	<!-- Device information strings -->
+	<string name="device_information_supported_oxygen_os">Laitteesi on tuettu</string>
+	<string name="device_information_carrier_exclusive_oxygen_os">Laitteesi ei ole tuettu, se on operaattori eksklusiivinen laite</string>
+	<string name="device_information_unsupported_oxygen_os">Emme ole vielä lisänneet tukea uudelle laitteellesi</string>
+	<string name="device_information_unsupported_os">Laitteesi ei ole tuettu, koska laitteellasi ei ole OxygenOS:ää</string>
+	<string name="device_information_hardware_header">Laitteisto</string>
+	<string name="device_information_software_header">Ohjelmisto</string>
+	<string name="device_information_amount_of_memory">"RAM-muistin määrä:"</string>
+	<string name="device_information_cpu_frequency">"Prosessorin kellotaajuus:"</string>
+	<string name="device_information_header">"Laite"</string>
+	<string name="device_information_image_description">"Laitteen kuva"</string>
+	<string name="device_information_incremental_os_version">"Lisäävän päivityksen versio:"</string>
+	<string name="device_information_os_version">"Android versio:"</string>
+	<string name="device_information_oxygen_os_version">"OS versio:"</string>
+	<string name="device_information_oxygen_os_ota_version">"OTA versio:"</string>
+	<string name="device_information_patch_level_version">"Tietoturvapäivitysten päiväys:"</string>
+	<string name="device_information_serial_number">"Sarjanumero:"</string>
+	<string name="device_information_system_on_a_chip">"Piirisarja:"</string>
+	<string name="device_information_unknown">"tuntematon"</string>
+
+	<!-- About screen strings -->
+	<string name="about">"Noin"</string>
+	<!-- TODO: translate these 3 strings below -->
+	<string name="about_description">This app downloads official updates directly from OnePlus servers, and even verifies the integrity of the downloaded ZIP before allowing you to install. By doing so, the app allows you to skip the rollout queue and install official updates ASAP. If you encounter bugs in the OS, report them to OnePlus directly: <a href="https://forums.oneplus.com/feedback">https://forums.oneplus.com/feedback</a>. You might want to join our <a href="https://discord.gg/5TXdhKJ">Discord server</a> as well, so that you can talk to other users about the latest updates. Otherwise feel free to email us at <a href="mailto:support@oxygenupdater.com">support@oxygenupdater.com</a> with your suggestions/feedback.</string>
+	<string name="about_support">If you\'d like to support us, you can either buy the ad-free unlock (app\'s settings), or check our <a href="https://patreon.com/oxygenupdater">Patreon page</a>.</string>
+	<string name="about_background_story_header">Background story</string>
+	<string name="about_background_story">Tämän sovelluksen on alunperin kehittänyt Arjan Vlek hänen toisen sovelluksensa jatkona nimeltä <a href="https://cyanogenupdatetracker.com/">Cyanogen Update Tracker</a> (se tarjoaa vastaavia toimintoja Cyanogen OS käyttäjille).\n\nNeljän vuoden jälkeen, heinäkuussa 2019, Arjan päätti luopua molemmista projekteista ja siirsi sovellusten omistajuuden kehitystiimille jonka jäsenet ovat kotoisin eri maista. He ottivat vastuun tarjota yhteisölle erinomaisen palvelun &amp; tuen saadakseen OnePlus päivitykset nopeammin.\nLöydät lisätietoja ilmoituksesta <a href="https://oxygenupdater.com/article/81/">täältä</a> (englanniksi).\n\n14 elokuuta 2019 merkitsi ensimmäistä julkaisua uuden omistajuuden alla ja tämä päivitys sisälsi uusia ominaisuuksia, kuten tumman tilan ja täydellisen uudelleensuunnitelun.\n\nLisätietoja uudesta tiimistä löydät <a href="https://oxygenupdater.com/team/">verkkosivuilta</a>.</string>
+	<string name="about_third_party_app_notice">Huomaathan, että tämä ei ole virallinen OnePlus sovellus\nOnePlus -nimi, OnePlus -logo ja OxygenOS ovat OnePlussan omaisuutta.\nAndroid, Google, Google Play ja Google Play -logo ovat Google Inc:n rekisteröityjä tavaramerkkejä.\nTämä sovellus käyttää OnePlussan ja sen emoyhtiön Oppon tietoja päivitystietojen näyttämiseen.</string>
+	<string name="about_rate_button_text">Arvostele</string>
+	<string name="about_website_button_text">Verkkosivu</string>
+	<string name="about_email_button_text">Sähköposti</string>
+
+	<!-- LocalNotifications strings -->
+	<string name="notification_permission_title">"Pysy ilmoitettuna"</string>
+	<string name="notification_permission_text">"Anna sovelluksen ilmoittaa sinulle OTA-päivityksistä, uutisista, käynnissä olevasta lataustilanteesta ja muista tärkeistä asioista. Voit hienosäätää asetuksiasi myöhemmin sovelluksen asetuksissa."</string>
+	<string name="notification_new_device_text">"%1$s on nyt tuettu. Avaa sovellus valitaksesi tämä laite."</string>
+	<string name="notification_no_notification_support">"Asenna tai päivitä Google Play palvelut mahdollistaaksesi push ilmoitukset"</string>
+	<string name="notification_version">"%1$s on nyt saatavissa laitteelle %2$s!"</string>
+	<!-- TODO: translate these 19 strings below -->
+	<string name="download_and_installation_notifications_group_name">Download &amp; Installation</string>
+	<string name="push_notifications_group_name">"Push ilmoitukset"</string>
+	<string name="miscellaneous_notifications_group_name">Miscellaneous</string>
+	<string name="download_and_installation_notifications_group_description">"Näyttää kaikki sovelluksen Oxygen Updater ei tärkeät päivitykset. Sisältää tilaindikaattorin kun ladataan päivitystä."</string>
+	<string name="push_notifications_group_description">"Näyttää kaikki sovelluksen Oxygen Updater tärkeät päivitykset. Tämä sisältää järjestelmäpäivitysten sekä viimeisimpien uutisten ilmoitukset."</string>
+	<string name="download_status_notification_channel_name">Download status</string>
+	<string name="verification_status_notification_channel_name">Verification status</string>
+	<string name="installation_status_notification_channel_name">Installation status</string>
+	<string name="update_notification_channel_name">"Järjestelmäpäivitys saatavilla"</string>
+	<string name="news_notification_channel_name">News article published</string>
+	<string name="device_notification_channel_name">"Uusi laite tuettu"</string>
+	<string name="general_notification_channel_name">General</string>
+	<string name="url_submitted_notification_channel_name">OTA URL-osoite toimitettu</string>
+	<string name="download_status_notification_channel_description">Notifications that reflect the current state of a download: pending, active, completed, or failed</string>
+	<string name="verification_status_notification_channel_description">Notifications that reflect the current state of a file verification task: in-progress, completed, or failed.\nMD5 checksums for downloaded files are verified to ensure the file hasn\'t been tampered with, and is a valid update file.</string>
+	<string name="installation_status_notification_channel_description">Get notified if an update was successfully installed or not</string>
+	<string name="update_notification_channel_description">Get notified when there\'s a new update available for your selected device &amp; update method</string>
+	<string name="news_notification_channel_description">Get notified when we publish a news article</string>
+	<string name="device_notification_channel_description">Get notified when the app adds support for a new device</string>
+	<string name="general_notification_channel_description">General notifications that don\'t fit into other categories</string>
+	<string name="url_submitted_notification_channel_description">Saat ilmoituksen, kun olet lähettänyt OTA URL-osoitteet onnistuneesti tiimillemme.\nVoit kieltäytyä lähettämästä URL-osoitteita automaattisesti sovelluksen asetuksissa.</string>
+
+	<!-- News strings -->
+	<string name="news">"Uutiset"</string>
+	<string name="news_load_network_error">"Artikkelin avaus epäonnistui. Tarkista verkkoyhteys ja paina 'Uudelleen' painiketta avataksesi artikkeli."</string>
+
+	<string name="news_unread_count_1">Sinulla on %1$d lukematonta artikkelia. Paina tästä nähdäksesi ne.</string>
+	<string name="news_unread_count_2">Sinulla on %1$d lukematonta artikkelia. Paina nähdäksesi kaikki artikkelit.</string>
+	<string name="news_mark_read">Merkitse luetuksi</string>
+	<string name="news_mark_unread">Merkitse lukemattomaksi</string>
+	<string name="news_mark_all_read">Merkitse kaikki artikkelit luetuksi</string>
+
+	<string name="news_empty_state_none_available_header">Ei artikkeleita</string>
+	<string name="news_empty_state_all_read_header">Ei luettavaa jäljellä</string>
+	<string name="news_empty_state_none_available_text">Ei artikkeleita. Tule takaisin myöhemmin.</string>
+	<string name="news_empty_state_all_read_text">Olet lukenut kaikki artikkelit. Hyvin tehty!\nToivomme, että pidät niistä ja olet oppinut jotain uutta.\n\nBannerin painaminen näyttää kaikki artikkelit.</string>
+
+	<string name="contribute">Tule tukijaksi</string>
+	<string name="contribute_title">Auta parantamaan Oxygen Updateria</string>
+	<string name="contribute_explanation">Jotta voimme antaa sinulle uusimmat päivitykset, meidän on kerättävä OTA ZIP URL-osoitteet.\n\nMiten voin auttaa?\n\nOxygen Updater voi lähettää uudet OTA-URL-osoitteet automaattisesti ylläpitäjillemme. Tämä käyttää pienen määrän dataa ja saattaa kuluttaa hieman akkuasi. Sinun on annettava sovellukselle pääkäyttäjän oikeudet, koska se lukee tietokantatiedostoa, johon pääsee käsiksi vain pääkäyttäjän kautta. Saat ilmoituksen, kun URL-osoite on lähetetty onnistuneesti.</string>
+	<string name="contribute_agree">Haluaisin auttaa ja suostun lähettämään OTA URL-osoitteet ylläpitäjillemme</string>
+	<string name="contribute_save">Tallenna asetukset</string>
+	<string name="contribute_more_info">Lisätietoja</string>
+	<string name="contribute_allow_storage">Myönnä tallennus- ja pääkäyttäjäoikeudet, jotta voit parantaa sovellusta</string>
+	<string name="contribute_successful_notification_title">Osallistuminen onnistui</string>
+	<string name="contribute_successful_notification_text">Kiitos OTA URL-osoitteiden jakamisesta kanssamme!</string>
+
+	<!-- Error strings -->
+	<string name="error_app_outdated">"Voi ei!"</string>
+	<string name="error_app_outdated_message">"Tämä versio sovelluksesta on vanhentunut. On aika päivittää se! Napsauta alhaalta \"Play Kauppa\". Play Kaupassa, napsauta \"Päivitä\"."</string>
+	<string name="error_app_requires_network_connection">"Ei yhteyttä"</string>
+	<string name="error_maintenance">"Palvelimella huoltokatko"</string>
+	<string name="error_maintenance_message">"Ole hyvä ja odota. Palvelin on hyvin pian taas käytettävissä."</string>
+	<string name="error_maintenance_retry"><![CDATA[Palvelimella saattaa olla huoltokatko. Yritä uudestaan pian, tai ilmoita siitä meille joko <a href="mailto:support@oxygenupdater.com">sähköpostilla</a> tai meidän <a href="https://discord.gg/5TXdhKJ">Discord palvelimella</a>.]]></string>
+	<string name="error_reload">"Lataa uudelleen"</string>
+	<string name="error_unable_to_rate_app">"Ei voi arvostella sovellusta, sillä Play Kauppa puuttuu laitteeltasi."</string>
+
+	<!-- Message strings -->
+	<string name="delete_message_title">"Päivitys on jo ladattuna"</string>
+	<string name="delete_message_contents">"Olet jo ladannut tämän päivityksen, mutta et vielä asentanut sitä. Napsauta \"Asenna\" nähdäksesi kuinka päivitys asennetaan. Napsauta \"Poista\" painiketta poistaaksesi tiedosto. Paina takaisin painiketta sulkeaksi tämä viesti."</string>
+	<string name="delete_message_delete_button">"Poista"</string>
+	<string name="unsupported_device_warning_title">"Laitetta ei tueta"</string>
+	<string name="carrier_exclusive_device_warning_message">Näyttäisi siltä, että käytät operaattori eksklusiivista laitetta. vaikka käytössäsi on OxygenOS, et voi asentaa päivityksiä. Yleensä operaattorit lukitsevat laitteensa, jotta käyttäjä ei pysty päivittämään tai muokkaamaan laitteen ohjelmistoa ilman operaattorin lupaa. Tämä on yleinen tapa Amerikassa: "Paikallinen Päivitys" vaihtoehto on poistettu operaattori eksklusiivisista OxygenOS versioista. Tämä asetus on välttämätön, jotta voit asentaa päivityksiä manuaalisesti, vaikka et käyttäisi tätä sovellusta. Valitettavasti emme voi tehdä tälle mitään, olemme teknisesti ja mahdollisesti laillisesti rajoitettuja. Ota yhteyttä sähköpostilla tai Discordissa asian selkeyttämiseksi.</string>
+	<string name="unsupported_device_warning_message">Onnittelut uudesta OnePlus laitteesta! Valitettavasti emme ole vielä lisänneet tukea tälle laitteelle. Älä huoli, lisäämme sen mahdollisimman nopeasti. Emme halua tehdä virheitä ja laitteen testaus ja tuen lisääminen on aikaa vievää. Ole kärsivällinen. Lähetä sähköpostia tai liity Discord palvelimelle, jos haluat auttaa tai saada ilmoituksen, kun uusi versio sovelluksesta tukee laitettasi.</string>
+	<string name="unsupported_os_warning_message">"Näyttäisi siltä, että laiteellasi ei ole asennettuna OxygenOS. Huomioithan, että voit asentaa päivityksiä vain laitteille joilla on asennettuna OxygenOS.
+
+Muut laitteet, mukaan lukien OnePlus laitteet joille on asennettu kustomoitu käyttöjärjestelmä, eivät ole tuettuja"</string>
+
+	<!-- TODO: translate these 2 strings below -->
+	<string name="incorrect_device_warning_title">Selected device mismatch</string>
+	<string name="incorrect_device_warning_message">It looks like you\'ve selected the wrong device: \"%1$s\", instead of \"%2$s\". Change your selection in the app\'s settings to ensure you receive updates and notifications for the correct device.</string>
+
+	<string name="do_not_show_again_checkbox">"Älä näytä uudelleen"</string>
+
+	<!-- Purchasing strings -->
+	<!-- TODO: translate this string below -->
+	<string name="purchase_error_pending_payment">Your purchase is in the \"payment pending\" state. Once payment is completed, you\'ll be granted all benefits that you\'re entitled to.</string>
+	<string name="purchase_error_after_payment">"Mainosvapaan version ostaminen epäonnistui, koska sattui sisäinen virhe. Ole hyvä ja yritä uudelleen muutaman minuutin kuluttua. Jos olet jo maksanut, ole hyvä ja ota yhteyttä Play Kaupan tukeen saadaksesi apua."</string>
+
+	<!-- Other strings -->
+	<string name="icon">"Ikoni"</string>
+	<string name="loading">"Ladataan…"</string>
+	<string name="processing">"Prosessoidaan…"</string>
+	<string name="update_information_description_not_available">"Virallista informaatiota tämän päivityksen uusista ominaisuuksista ei ole saatavilla. Yleensä tällainen päivitys tuo mukanaan bugikorjauksia, suorituskyvyn parannuksia ja/tai kriittisiä tietoturvapäivityksiä laitteellesi."</string>
+	<string name="error_google_play_button_text">"Play Kauppa"</string>
+</resources>

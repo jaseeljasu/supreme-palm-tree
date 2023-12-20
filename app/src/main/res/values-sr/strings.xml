@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Update information strings-->
+	<string name="enable">Омогући</string>
+	<string name="update_information_description_not_available">Нема званичних информација о новим могућностима овог ажурирања. Обично, овакво ажурирање поправња грешке, повећавање перформанси, и / или критична ажурирања сигурности за ваш уређај.</string>
+	<string name="update_information_file_name">Име дадотеке: %1$s</string>
+	<string name="update_information_md5">MD5: %1$s</string>
+	<string name="update_information_download_link">Пошто се десила грешка при преузимању, преузимање се мора рестартовати, можете користити овај линк да скинете фајл из претраживача. Можда ћете морати да преместите преузету датотеку из \"Преузимања\" директоријум у матични директориј. Ово је исти линк који апликација користи за преузимање, он је официјални OnePlus OTA сервер линк:\n%1$s</string>
+	<string name="update_information_header">Ажурирај</string>
+
+	<string name="update_information_error_title">Не могу преузети најновије информације о ажурирању</string>
+	<string name="update_information_banner_server">Додирните овде да бисте видели важна обавештења</string>
+	<!-- TODO: translate these 2 strings below -->
+	<string name="update_information_banner_advanced_mode_tip">You\'ve selected the \"%1$s\" update method. Enable напредни мод if you plan to switch to this update method.</string>
+	<string name="update_information_header_advanced_mode_hint">Омогућен је напредни режим</string>
+	<string name="update_information_header_advanced_mode_helper">Пошто сте укључили напредни мод, можете преузети последњи ZIP за \"%1$s\". Можете искључити напредни мод из подешавања.</string>
+	<string name="update_information_different_version_changelog_notice_base">Напомена: овај дневник промена је за најновију доступну верзију (%1$s) у методи ажурирања \"%2$s\"</string>
+	<string name="update_information_different_version_changelog_notice_advanced">. Ако намеравате да инсталирате ову исправку, морате да омогућите „Напредни мод“ у подешавањима.</string>
+	<string name="update_information_no_update_data_available">Нема новости о ажурирању</string>
+	<string name="update_information_system_is_up_to_date">Твој систем користи најновија ажурирања</string>
+	<string name="update_information_unknown_update_name">Неименовано ажурирање за %1$s</string>
+	<string name="update_information_view_update_information">Погледај податке о ажурирању</string>
+
+	<!-- Server status warning strings -->
+	<string name="server_status_error">Неке функције не раде.</string>
+	<string name="server_status_unreachable">Сервер је недоступан. Пробајте са освежавањем странице.</string>
+	<string name="server_status_warning">Неке фунције би могле имати потешкоћа са радом.</string>
+
+	<!-- New app version message strings -->
+	<string name="new_app_version">Доступно је ажурирање апликације (%1$s). Кликните овде да отворите Play продавницу и урадите ажурирање апликације.</string>
+	<string name="new_app_version_inapp_downloaded">Преузето је ажурирање апликације</string>
+	<string name="new_app_version_inapp_failed">Ажурирање се не може извршити. Кликните овде да отворите Play продавницу и урадите ажурирање апликације.</string>
+
+	<!-- Downloader strings-->
+	<!-- TODO: translate this string below -->
+	<string name="grant_all_files_access">Please enable \"All files access\" for the app, which is used only for downloading OTA ZIPs to the topmost directory of internal storage</string>
+	<string name="download">Преузмите ажурирање</string>
+	<string name="downloaded">Ажурирање преузето</string>
+	<string name="downloading">Преузимање ажурирања…</string>
+	<string name="paused">Паузирано - кликните да наставите</string>
+
+	<string name="download_complete">Преузимање је готово</string>
+	<string name="download_complete_notification">Притисните за почетак инсталације</string>
+
+	<string name="download_error">Грешка при преузимању</string>
+	<string name="download_error_close">Затвори</string>
+	<string name="download_error_corrupt">Преузети фајл је оштећен! Молимо вас покушајте да преузмете поново.</string>
+	<string name="download_error_server">Грешка са сервером је настала приликом преузимања. Молимо вас покушајте да преузмете поново.</string>
+	<string name="download_error_internal">Нажалост, техничка грешка је настала приликом преузимања ажурирања. Молимо вас покушајте да преузмете поново. Ако грешка настави да се појављује, молимо вас контактирајте нас за помоћ.</string>
+	<string name="download_error_unsuccessful_response"><![CDATA[Чини се да је линк за преузимање неважећи. То може значити да смо направили грешку током додавања података за ажурирање, или је OnePlus повукао/избрисао ажурирање са њихових сервера. Обавештење је послато тиму и ми ћемо погледати о ћему се ради што брже могуће.
+
+Ако желите да сазнате више, осећајте се слободно да нас контактирате путем <a href="mailto:support@oxygenupdater.com">email</a> или на нашем <a href="https://discord.gg/5TXdhKJ">Discord server</a>.]]></string>
+	<string name="download_error_could_not_move_temp_file">Фајл је преузет, али не може бити пребачен у исправни директоријум. Отворите менаџер фајлова, идите на \"%1$s\" и ручно преместите фајл у највиши директориј интерне меморије.</string>
+
+	<string name="download_error_retry">Понови</string>
+	<string name="download_error_resume">Настави</string>
+	<string name="download_error_storage">Немате довољно простора на уређају за ажурирање. Молимо вас уклоните неке податке и покушајте поново.</string>
+
+	<string name="download_failed">Недовољно простора</string>
+	<string name="download_pending">Ваше преузимање ће ускоро почети…</string>
+	<string name="download_notification_error_server">Грешка са сервером приликом преузимања. Молимо вас покушајте поново.</string>
+	<string name="download_notification_error_internal">Техничка грешка приликом преузимања. Покушајте поново са преузимањем или нас контактирајте.</string>
+	<string name="download_notification_error_storage_full">Недовољно простора.</string>
+	<string name="download_notification_error_corrupt">Верификација фајла неуспешна. Проверите конекцију и покушајте поново.</string>
+
+	<string name="download_progress_text_hours_remaining">од %1$d сати преостало</string>
+	<string name="download_progress_text_less_than_a_minute_remaining">мање од минута остало</string>
+	<string name="download_progress_text_minutes_remaining">од %1$d минута преостало</string>
+	<string name="download_progress_text_one_hour_remaining">око један сат преостало</string>
+	<string name="download_progress_text_one_minute_remaining">око једног минута преостало</string>
+	<string name="download_progress_text_seconds_remaining">пар секунди је преостало</string>
+	<string name="download_progress_text_unknown_time_remaining">израчунавање преосталог времена…</string>
+	<string name="download_progress_text_verifying">верификација фајла…</string>
+	<string name="download_progress_text_paused">паузирано</string>
+
+	<string name="download_verifying">Верификација…</string>
+	<string name="download_verifying_error">Фајл је оштећен</string>
+	<string name="download_verifying_start">Ваше преузимање ће сада биди верификовано…</string>
+
+	<!-- Settings strings-->
+	<string name="preference_header_support">Подржите нас</string>
+	<string name="preference_header_device">Уређај</string>
+	<string name="preference_header_ui">UI</string>
+	<string name="preference_header_notifications">Нотификације</string>
+	<string name="preference_header_advanced">Напредно</string>
+	<string name="preference_header_about">О нама</string>
+
+	<string name="summary_on">Омофућено</string>
+	<string name="summary_off">Онемогућено</string>
+	<string name="summary_please_wait">Молимо сачекајте…</string>
+	<string name="summary_update_method">Прво селектујте уређај</string>
+	<!-- TODO: check the following translation -->
+	<string name="summary_important_notifications_disabled">Нека важна обавештења су онемогућена:</string>
+	<string name="summary_privacy_policy">Погледајте на интернету</string>
+	<string name="summary_rate_app">Оставите нам 5 звездица</string>
+
+	<string name="label_buy_ad_free">Уклоните рекламе</string>
+	<string name="label_theme">Тема</string>
+	<string name="label_language">Језик</string>
+	<string name="label_privacy_policy">Политика приватности</string>
+	<string name="label_rate_app">Rate this app</string>
+
+	<string name="theme_light">Светло</string>
+	<string name="theme_dark">Тамно</string>
+	<string name="theme_system">Систем</string>
+	<string name="theme_auto">Аутоматски</string>
+
+	<string name="theme_light_subtitle">Теме са белом позадином и OnePlus Црвеном примарном бојом</string>
+	<string name="theme_dark_subtitle">Мутирана OnePlus Црвена примарна боја, са скоро црном позадином. Користите ову тему да уштедите батерију, поготово на AMOLED екранима.</string>
+	<string name="theme_system_subtitle">Користите системски ноћни мод (ово можете наместити у опцијама дисплеја или опцијама развоја). Зависи од уређаја.</string>
+	<string name="theme_auto_subtitle">Пребацивање између светле и тамне теме у односу на доба дана ради спречавања напрезања очију</string>
+	<string name="theme_additional_note">Белешка: ако је \'Аутоматски\' тема активна и чувар батерије, тамна тема ће аутоматски бити активна невезано за доба дана ради уштеде батерије</string>
+
+	<string name="settings">Подешавања</string>
+	<string name="settings_buy_button_buy">Купи (%1$s)</string>
+	<string name="settings_buy_button_bought">Купљено</string>
+	<string name="settings_buy_button_not_possible">Недоступно</string>
+	<string name="settings_buy_ad_free_label">Надогради за без реклама</string>
+
+	<string name="settings_contribute_label">Помозите напредовању апликације</string>
+
+	<string name="settings_device">Уређај</string>
+	<string name="settings_entered_incorrectly">Грешка приликом чувања ваших подешавања. Молимо вас и изаберите ваш уређај / методу ажурирања.</string>
+
+	<string name="settings_push_from_server">Важна порука је доступна</string>
+
+	<string name="settings_saving">Ваша подешавања се још убек чувају. Ако ово предуго траје: Проверите вашу конекцију, изађите из апликације и покушајте поново.</string>
+
+	<string name="settings_advanced_mode">Напредни мод</string>
+	<string name="settings_advanced_mode_explanation">"Обично вам апликација приказује ажурирања на основу ваше тренутне верзије ОС-а. Са напредним режимом, најновије доступно ажурирање ће увек бити приказано без обзира на компатибилност уређаја/верзије.
+
+Ово може бити корисно ако желите да:"</string>
+	<string name="settings_advanced_mode_uses">"&#8226; Поново преузмите најновију верзију чак и ако је већ користите
+&#8226; Пребаците се на другу стазу ажурирања"</string>
+	<string name="settings_advanced_mode_caption">"Напредни режим може бити потребан само у горе наведеним ситуацијама. Не би требало да га омогућавате осим ако не знате шта радите."</string>
+
+	<string name="settings_update_method">Методе ажурирања</string>
+	<string name="settings_upload_logs">Подели податке коришћења и записе</string>
+	<string name="settings_ad_privacy">ГДПР сагласност за оглашавање</string>
+	<string name="settings_ad_privacy_subtitle">"За кориснике ЕЕА/УК"</string>
+
+	<!-- FAQ strings -->
+	<string name="faq">FAQ</string>
+	<string name="faq_menu_item">FAQ</string>
+
+	<!-- First-time setup strings -->
+	<string name="onboarding">Подесити</string>
+	<string name="onboarding_finished_button">Покрените апликацију</string>
+
+	<string name="onboarding_app_uses">Ова апликација ће вам омогућити:\n\n&#8226; Добијте бржи приступ последњим ажурирањима андроида за ваше уређаје који раде на OxgenOS-y.\n&#8226; Лако ажурирајте рутован уређај\n&#8226; Погледајте шта има ново у софтверу који тренутно користите\n&#8226; Прочитајте последње вести о OnePlus-у и OxgenOS-у</string>
+	<string name="onboarding_disclaimer">Ово није званична OnePlus апликација. Користите ову апликацију комплетно на ваш ризик. Ни OnePlus нити људи који раде на овој апликацији нису одговорни за ваше поступке, укључујући било коју штету која је настала коришћењем ове апликације. Коришћењем ове апликације прихватате услове наведене изнад.</string>
+	<string name="onboarding_device_chooser_title">Изаберите ваш уређај</string>
+	<string name="onboarding_device_chooser_caption">Обично је ваш уређај већ изабран. Ако није, изаберите уређај изнад.</string>
+	<string name="onboarding_method_chooser_title">Изаберите методу ажурирањ</string>
+	<string name="onboarding_method_chooser_caption">Обично је делимично ажурирање прави избор, зато што омогућава мања и бржа преузимања. Али тај метод ажурирања није компатибилан са рутованим уређајима. Ако имате рутован уређај изаберите пуно ажурирање. Ако имате beta верзију OxgenOS-a, изаберите једну од Open Beta метода ажурирања.</string>
+	<string name="onboarding_caption">Уживајте у коришћењу апликације! Можете увек променити поставке у подешавањима касније.</string>
+
+	<!-- Automatic install strings -->
+	<string name="install">Инсталирај</string>
+
+	<!-- Install guide strings -->
+	<string name="install_guide">Упуство за инталацију</string>
+	<string name="install_guide_download_instructions">&#8226; Притисните дугме за преузимање да започнете преузимање ажурирања.\n&#8226; Прогрес преузимања ће се појавити у апликацији, такође и као обавештење.\n&#8226; Када је преузимање завршено, видећете обавештење са текстом \"Преузимање завшено\". Ако је дошло до грешке приликом преузимања, отворите апликацију и покушајте поново са преузимањем. Ако то не ради, проверите да ли имате интернет конекцију. У супротном, контактирајте нас. То можете учинити одласком на \" Моје апликације \" секцију на Goole Play продавници.</string>
+
+	<!-- Device information strings -->
+	<string name="device_information_supported_oxygen_os">Ваш уређај је подржан</string>
+	<string name="device_information_carrier_exclusive_oxygen_os">Ваш уређај није подржан због тога што је уређај од оператера</string>
+	<string name="device_information_unsupported_oxygen_os">Нисмо додали подршку за ваш нови уређај још увек</string>
+	<string name="device_information_unsupported_os">Ваш уређај није подржан јер не користи OxygenOS</string>
+	<string name="device_information_hardware_header">Хардвер</string>
+	<string name="device_information_software_header">Софтвер</string>
+
+	<string name="device_information_amount_of_memory">Количина RAM-а</string>
+	<string name="device_information_cpu_frequency">Френквенција процесора</string>
+	<string name="device_information_header">Уређај</string>
+	<string name="device_information_image_description">Слика уређаја</string>
+	<string name="device_information_incremental_os_version">Инкрементална OS верзија</string>
+	<string name="device_information_os_version">Верзија андроида</string>
+	<string name="device_information_oxygen_os_version">OS верзија</string>
+	<string name="device_information_oxygen_os_ota_version">OTA верзија</string>
+	<string name="device_information_patch_level_version">Датум сигурносне закрпе</string>
+	<string name="device_information_serial_number">Серијски број</string>
+	<string name="device_information_system_on_a_chip">Систем на чипу</string>
+	<string name="device_information_unknown">непознато</string>
+
+	<!-- About screen strings -->
+	<string name="about">О томе</string>
+	<!-- TODO: translate these 3 strings below -->
+	<string name="about_description">This app downloads official updates directly from OnePlus servers, and even verifies the integrity of the downloaded ZIP before allowing you to install. By doing so, the app allows you to skip the rollout queue and install official updates ASAP. If you encounter bugs in the OS, report them to OnePlus directly: <a href="https://forums.oneplus.com/feedback">https://forums.oneplus.com/feedback</a>. You might want to join our <a href="https://discord.gg/5TXdhKJ">Discord server</a> as well, so that you can talk to other users about the latest updates. Otherwise feel free to email us at <a href="mailto:support@oxygenupdater.com">support@oxygenupdater.com</a> with your suggestions/feedback.</string>
+	<string name="about_support">If you\'d like to support us, you can either buy the ad-free unlock (app\'s settings), or check our <a href="https://patreon.com/oxygenupdater">Patreon page</a>.</string>
+	<string name="about_background_story_header">Background story</string>
+	<string name="about_background_story">Ова апликација је оригинално направљена од стране Arjan Vlek-а као наследник за још једну од његових апликација звану <a href="https://cyanogenupdatetracker.com/">Cyanogen Update Tracker</a> (која пружа сличну употребу као ова апликација за Cyanogen OS кориснике).\n\nНакон 4 године, у јулу 2019, Arjan је одлучио да препусти оба пројекта и преда њихово власнишство тиму програмера из различитих држава. Они су преузели одговорност да пруже људима одличне услуге &amp; подршку добијања OnePlus ажурирања брже.\nМожете пронаћи више информација о обавештењу <a href="https://oxygenupdater.com/article/81/">here</a>.\n\n14. Август 2019. означава прво издање под новим власништвом, које долази са новим опцијама као што су тамни режим и комплетно мењање дизајна.\n\nЗа више информација о тиму погледајте <a href="https://oxygenupdater.com/team/">веб сајт</a>.</string>
+	<string name="about_third_party_app_notice">Ово није званична OnePlus апликација.\nOnePlus име, OnePlus лого и OxygenOS су власништво OnePlus-а.\nAndroid, Google, Google Play и Google Play лого су регистровани заштитни знакови код Google Inc.\nОва апликација користи податке од OnePlus-а и његове матичне компаније Oppo да прикаже податке о ажурирањуn.</string>
+	<string name="about_rate_button_text">Оцените</string>
+	<string name="about_website_button_text">Веб сајт</string>
+	<string name="about_email_button_text">Емаил</string>
+
+	<!-- LocalNotifications strings -->
+	<string name="notification_permission_title">"Будите обавештени"</string>
+	<string name="notification_permission_text">"Дозволите апликацији да вас обавештава о ОТА ажурирањима, вестима, статусу преузимања у току и другим важним стварима. Касније можете фино подесити своја подешавања у подешавањима апликације."</string>
+	<string name="notification_new_device_text">%1$s је сада доступан. Отвори апликацију да изабереш овај уређај.</string>
+	<string name="notification_no_notification_support">Инсталирај или ажурирај Google Play сервисе да омогућиш обавештења.</string>
+	<string name="notification_version">%1$s је сада доступан за %2$s!</string>
+	<!-- TODO: translate these 19 strings below -->
+	<string name="download_and_installation_notifications_group_name">Download &amp; Installation</string>
+	<string name="push_notifications_group_name">Обавештења</string>
+	<string name="miscellaneous_notifications_group_name">Miscellaneous</string>
+	<string name="download_and_installation_notifications_group_description">Прикажи сва мање битна обавештења о Oxygen Updater апликацији. То садржи обавештења о статусу преузимања и слично.</string>
+	<string name="push_notifications_group_description">Прикажи сва битна обавештења Oxygen Updater апликације. Ово подразумева обавештења о ажурирању система и битне вести.</string>
+	<string name="download_status_notification_channel_name">Download status</string>
+	<string name="verification_status_notification_channel_name">Verification status</string>
+	<string name="installation_status_notification_channel_name">Installation status</string>
+	<string name="update_notification_channel_name">Ажурирање система доступно</string>
+	<string name="news_notification_channel_name">News article published</string>
+	<string name="device_notification_channel_name">Нови уређај подржан</string>
+	<string name="general_notification_channel_name">General</string>
+	<string name="url_submitted_notification_channel_name">ОТА УРЛ је послат</string>
+	<string name="download_status_notification_channel_description">Notifications that reflect the current state of a download: pending, active, completed, or failed</string>
+	<string name="verification_status_notification_channel_description">Notifications that reflect the current state of a file verification task: in-progress, completed, or failed.\nMD5 checksums for downloaded files are verified to ensure the file hasn\'t been tampered with, and is a valid update file.</string>
+	<string name="installation_status_notification_channel_description">Get notified if an update was successfully installed or not</string>
+	<string name="update_notification_channel_description">Get notified when there\'s a new update available for your selected device &amp; update method</string>
+	<string name="news_notification_channel_description">Get notified when we publish a news article</string>
+	<string name="device_notification_channel_description">Get notified when the app adds support for a new device</string>
+	<string name="general_notification_channel_description">General notifications that don\'t fit into other categories</string>
+	<string name="url_submitted_notification_channel_description">Примите обавештење када нашем тиму успешно пошаљете ОТА УРЛ адресе.\nМожете да онемогућите аутоматско слање УРЛ-ова у подешавањима апликације.</string>
+
+	<!-- News strings -->
+	<string name="news">Вести</string>
+	<string name="news_load_network_error">Грешка приликом отварања вести. Проверите конекцију и притисните \'Понови\' дугме да отворите вест.</string>
+
+	<string name="news_unread_count_1">Имате %1$d непрочитаних вести. Кликните овде да их погледате.</string>
+	<string name="news_unread_count_2">Имате %1$d непрочитаних вести. Кликните овде да видите све непрочитане вести.</string>
+	<string name="news_mark_read">Означи као прочитано</string>
+	<string name="news_mark_unread">Означи као непрочитану</string>
+	<string name="news_mark_all_read">Означите све вести као прочитане</string>
+	<string name="news_empty_state_none_available_header">Нема вести још увек</string>
+	<string name="news_empty_state_all_read_header">Није ништа преостало за прочитати</string>
+	<string name="news_empty_state_none_available_text">У овом тренутку нема доступних вести, погледајте касније.</string>
+	<string name="news_empty_state_all_read_text">Прочитали сте све вести. Одличан посао!\nНадамо се да сте уживали читајући наше чланке и научили нешто ново из њих.\n\nДодирните банер поново да бисте приказали све вести.</string>
+
+	<!-- Contribute strings -->
+	<string name="contribute">Постани сарадник</string>
+	<string name="contribute_title">Помози напредовању Oxygen Updater-а</string>
+	<string name="contribute_explanation">Да бисмо вам дали најновија ажурирања, морамо да ухватимо ОТА ЗИП УРЛ адресе.\n\nКако могу да помогнем?\n\nОкиген Упдатер може аутоматски да пошаље нове ОТА УРЛ адресе нашим администраторима. Ово ће користити малу количину података и можда ће потрошити мало батерије. Мораћете да доделите роот дозволу за апликацију, јер она чита датотеку базе података којој се може приступити само преко роот-а. Бићете обавештени када УРЛ буде успешно послат.</string>
+	<string name="contribute_agree">Желео бих да помогнем и пристајем на слање ОТА УРЛ адреса нашим администраторима</string>
+	<string name="contribute_save">Сачувај подешавања</string>
+	<string name="contribute_more_info">Више информација</string>
+	<string name="contribute_allow_storage">Дајте дозволе за складиштење и роот да бисте помогли у побољшању апликације</string>
+	<string name="contribute_successful_notification_title">Учествовање успешно</string>
+	<string name="contribute_successful_notification_text">Хвала што сте поделили ОТА УРЛ-ове са нама!</string>
+
+	<!-- Error strings-->
+	<string name="error_app_outdated">О не!</string>
+	<string name="error_app_outdated_message">Ова верзија апликације није ажурирана. Време је да је ажурирате! Притисните на \"Google Play\" испод. У Google Play, притисните на \"Ажурирај\".</string>
+	<string name="error_app_requires_network_connection">Нема конекције</string>
+	<string name="error_google_play_button_text">Google Play</string>
+	<string name="error_maintenance">Одржавање сервера</string>
+	<string name="error_maintenance_message">Молимо вас сачекајте. Сервер ће ускоро бити поново доступан.</string>
+
+	<string name="error_maintenance_retry"><![CDATA[Сервер је можда искључен ради одржавања. Покушајте поново након неког времена, или нам то пријавите путем <a href="mailto:support@oxygenupdater.com">мејла</a> или на нашем <a href="https://discord.gg/5TXdhKJ">Discord серверу</a>.]]></string>
+	<string name="error_reload">Освежи</string>
+
+	<string name="error_unable_to_rate_app">Не можете оценити ову апликацију јер се Google Play продавница не налази на вашем уређају.</string>
+
+	<!-- Message strings -->
+	<string name="delete_message_title">Ажурирање је већ преузето</string>
+	<string name="delete_message_contents">Већ сте преузели ажурирање али га нисте инсталирали. Притисните на \"Инсталирај\" да видите како да инсталирате ово ажурирање. Притисните на \"Обриши\" да избришете фајл. Притисните дугме за назад да затворите ову поруку.</string>
+	<string name="delete_message_delete_button">Избриши</string>
+
+	<string name="unsupported_device_warning_title">Неподржан уређај</string>
+	<string name="carrier_exclusive_device_warning_message">Изгледа као да користите уређај специјално прављен за мобилног оператера. Иако користите OxygenOS, нећете бити у могућности да инсталирате ажурирања. Мобилни оператери обично закључају уређај тако да корисник не може да мења систем. Ово је уобичајено у Америци: опција "Локално ажурирање" је обрисана из уређаја који су специјално направљени за мобилне оператере. Ова опција је неопходна ради инсталирања ажурирања ручно, иако не користите ову апликацију. Нажалост не можемо да урадимо ништа поводом овога, јер смо технички и легално онемогућени. Контактирајте нас преко мејла или Doscprd сервера ради појашњења.</string>
+	<string name="unsupported_device_warning_message">Честитамо вам на вашем новом OnePlus утеђају! Нажалост нисмо додали подршку за овај уређај још увек. Али не брините, додаћемо га чим будемо могли. Ми не волимо да правимо грешке, али је процес верификације да ли је све како треба дуг, стога вас молимо да будете стрпљиви. Пошаљите нам мејл или нам се придружите на Discord серверу ако желите да нам помогнете или да будете обавештени када пустимо верзију апликације која подржава ваш уређај.</string>
+	<string name="unsupported_os_warning_message">Изгледа као да ваш уређај није на OxygenOS-у. Молимо вас запамтите да можете да радите ажурирања само за уређаје са OxygenOS-ом.\n\nОстали уређаји, укључујући OnePlus уређаје који користе друге ROM-ове нису подржани.</string>
+
+	<!-- TODO: translate these 2 strings below -->
+	<string name="incorrect_device_warning_title">Selected device mismatch</string>
+	<string name="incorrect_device_warning_message">It looks like you\'ve selected the wrong device: \"%1$s\", instead of \"%2$s\". Change your selection in the app\'s settings to ensure you receive updates and notifications for the correct device.</string>
+
+	<string name="do_not_show_again_checkbox">Не приказуј поново</string>
+
+	<!-- Purchasing strings -->
+	<!-- TODO: translate this string below -->
+	<string name="purchase_error_pending_payment">Your purchase is in the \"payment pending\" state. Once payment is completed, you\'ll be granted all benefits that you\'re entitled to.</string>
+	<string name="purchase_error_after_payment">Куповина апликације без реклама није успела због интерне грешке. Молимо вас покушајте за неколико минута. Ако сте већ платили, молимо вас контактирајте Google Play подршку.</string>
+
+	<!-- Other strings-->
+	<string name="icon">Иконица</string>
+	<string name="loading">Учитавање…</string>
+	<string name="processing">Обрада…</string>
+	<string name="device_information_gigahertz">%1$s ГХз</string>
+</resources>
